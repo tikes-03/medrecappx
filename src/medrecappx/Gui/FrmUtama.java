@@ -11,7 +11,11 @@
 package medrecappx.Gui;
 
 import java.awt.Dimension;
+<<<<<<< HEAD
 import medrecappx.Gui.Internal.FrmIntJaminan;
+=======
+import medrecappx.Gui.Internal.FrmIntObat;
+>>>>>>> 69c69a3e25015a2e4a1aa8213a30dd757ccb70e9
 import medrecappx.Gui.Internal.FrmIntSpesialis;
 
 /**
@@ -267,6 +271,15 @@ public class FrmUtama extends javax.swing.JFrame {
 
     private void menuObatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuObatActionPerformed
         // TODO add your handling code here:
+        jDesktopPane1.removeAll();
+        jDesktopPane1.repaint();
+        FrmIntObat fis = new FrmIntObat();
+        Dimension parentSize = jDesktopPane1.getSize();
+        Dimension childSize = fis.getSize();
+        fis.setLocation((parentSize.width - childSize.width) / 2, (parentSize.height - childSize.height) / 2);
+        jDesktopPane1.add(fis);
+        fis.show();
+        fis.toFront();
     }//GEN-LAST:event_menuObatActionPerformed
 
     private void menuPendaftaranPasBaruActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuPendaftaranPasBaruActionPerformed
