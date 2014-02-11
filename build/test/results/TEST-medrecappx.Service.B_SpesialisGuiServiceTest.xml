@@ -1,45 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<<<<<<< HEAD
-<testsuite errors="0" failures="0" hostname="YUAN-PC" name="medrecappx.Service.B_SpesialisGuiServiceTest" skipped="0" tests="5" time="42.808" timestamp="2014-02-10T18:07:48">
-=======
-<<<<<<< HEAD
-<testsuite errors="0" failures="0" hostname="Samsung" name="medrecappx.Service.B_SpesialisGuiServiceTest" skipped="0" tests="5" time="49.73" timestamp="2014-02-11T09:06:28">
-=======
-<<<<<<< HEAD
-<testsuite errors="0" failures="0" hostname="YUAN-PC" name="medrecappx.Service.B_SpesialisGuiServiceTest" skipped="0" tests="5" time="45.497" timestamp="2014-02-10T17:45:45">
->>>>>>> c8680d56d8eff19605ca6d57eda15addcc15b358
-  <properties>
-    <property name="default.javac.source" value="1.4" />
-    <property name="file.encoding.pkg" value="sun.io" />
-    <property name="ant.file.MedRecApp-impl" value="c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\nbproject\build-impl.xml" />
-    <property name="javac.source" value="1.5" />
-    <property name="java.home" value="c:\Program Files\Java\jdk1.7.0_21\jre" />
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<testsuite errors="0" failures="0" hostname="Samsung" name="medrecappx.Service.B_SpesialisGuiServiceTest" skipped="0" tests="5" time="50.197" timestamp="2014-02-11T08:33:44">
-=======
-<testsuite errors="0" failures="0" hostname="asus-PC" name="medrecappx.Service.B_SpesialisGuiServiceTest" skipped="0" tests="5" time="40.702" timestamp="2014-02-10T17:31:13">
->>>>>>> 69c69a3e25015a2e4a1aa8213a30dd757ccb70e9
->>>>>>> 23fbea673253309599bdb466beccfe64bb9cc595
+<testsuite errors="0" failures="0" hostname="Samsung" name="medrecappx.Service.B_SpesialisGuiServiceTest" skipped="0" tests="5" time="52.613" timestamp="2014-02-11T09:51:35">
   <properties>
     <property name="default.javac.source" value="1.7" />
     <property name="file.encoding.pkg" value="sun.io" />
-    <property name="ant.file.MedRecApp-impl" value="f:\TA\ci\git\medrecappx\nbproject\build-impl.xml" />
+    <property name="ant.file.MedRecApp-impl" value="F:\TA\ci\git\medrecappx\nbproject\build-impl.xml" />
     <property name="libs.toplink.maven-pom" value="" />
     <property name="javac.source" value="1.5" />
     <property name="java.home" value="c:\Program Files\Java\jdk1.7.0_45\jre" />
->>>>>>> 4565b20c5be1a93d8b91d3ba0718ba49f8ea70bd
->>>>>>> c8680d56d8eff19605ca6d57eda15addcc15b358
     <property name="do.archive+manifest.available+main.class" value="true" />
     <property name="test.src.dir" value="test" />
+    <property name="libs.jaxws21.src" value="" />
     <property name="javadoc.version" value="false" />
-    <property name="libs.CopyLibs.classpath" value="c:/Users/YUANITA/Documents/NetBeansProjects/medrecappx/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" />
-    <property name="ant.file.MedRecAppX" value="c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\build.xml" />
-    <property name="libraries.path" value="c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\lib\nblibraries.properties" />
-    <property name="java.endorsed.dirs" value="c:\Program Files\Java\jdk1.7.0_21\jre\lib\endorsed" />
-    <property name="libs.MySQLDriver.classpath" value="c:/Users/YUANITA/Documents/NetBeansProjects/medrecappx/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar" />
+    <property name="libs.CopyLibs.classpath" value="F:/TA/ci/git/medrecappx/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" />
+    <property name="libs.javac-api.src" value="" />
+    <property name="ant.file.MedRecAppX" value="F:\TA\ci\git\medrecappx\build.xml" />
+    <property name="libraries.path" value="F:\TA\ci\git\medrecappx\lib\nblibraries.properties" />
+    <property name="java.endorsed.dirs" value="c:\Program Files\Java\jdk1.7.0_45\jre\lib\endorsed" />
+    <property name="libs.MySQLDriver.classpath" value="F:/TA/ci/git/medrecappx/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar" />
+    <property name="libs.jaxb.javadoc" value="C:\Program Files\NetBeans 6.9.1\ide\docs\jaxb-api-doc.zip" />
+    <property name="libs.junit.maven-pom" value="" />
+    <property name="libs.PostgreSQLDriver.src" value="" />
     <property name="src.dir" value="src" />
     <property name="debug-args-line" value="-Xdebug" />
     <property name="build.sysclasspath" value="ignore" />
@@ -47,19 +27,26 @@
     <property name="includes" value="**" />
     <property name="javac.fork" value="false" />
     <property name="source.encoding" value="UTF-8" />
-    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="libs.jaxws21.classpath" value="C:\Program Files\NetBeans 6.9.1\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans 6.9.1\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\jaxws22\FastInfoset.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\jaxws22\gmbal-api-only.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\jaxws22\http.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\jaxws22\jaxws-rt.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\jaxws22\jaxws-tools.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\jaxws22\management-api.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\jaxws22\mimepull.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\jaxws22\policy.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\jaxws22\saaj-impl.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\jaxws22\stax-ex.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\jaxws22\streambuffer.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\jaxws22\woodstox.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\jaxws22\api\jaxws-api.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\jaxws22\api\jsr181-api.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\jaxws22\api\jsr250-api.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\jaxws22\api\saaj-api.jar;C:\Program Files\NetBeans 6.9.1\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 6.9.1\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files\NetBeans 6.9.1\ide\modules\ext\jaxb\api\jsr173_api.jar" />
+    <property name="libs.swing-app-framework.javadoc" value="C:\Program Files\NetBeans 6.9.1\java\docs\appframework-1.0.3-doc.zip" />
+    <property name="sun.os.patch.level" value="" />
     <property name="java.vendor.url" value="http://java.oracle.com/" />
-    <property name="java.version" value="1.7.0_21" />
+    <property name="java.version" value="1.7.0_45" />
     <property name="javac.debug" value="true" />
-    <property name="run.classpath" value="c:/Users/YUANITA/Documents/NetBeansProjects/medrecappx/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib\jcalendar-1.4.jar:build/classes" />
+    <property name="run.classpath" value="F:/TA/ci/git/medrecappx/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib\jcalendar-1.4.jar:build/classes" />
+    <property name="libs.PostgreSQLDriver.maven-pom" value="" />
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="libs.eclipselink.javadoc" value="" />
+    <property name="libs.absolutelayout.javadoc" value="" />
+    <property name="libs.junit_4.maven-pom" value="" />
     <property name="ant.project.invoked-targets" value="test" />
     <property name="annotation.processing.run.all.processors" value="true" />
     <property name="manifest.file" value="manifest.mf" />
     <property name="mysqladmin" value="C:\xampp\mysql\bin\mysqladmin.exe" />
-    <property name="user.name" value="YUANITA" />
+    <property name="libs.swing-app-framework.maven-pom" value="" />
+    <property name="user.name" value="Hernawati Susanti S" />
     <property name="manifest.available+main.class+mkdist.available" value="true" />
-    <property name="empty.dir" value="c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\build\empty" />
+    <property name="empty.dir" value="F:\TA\ci\git\medrecappx\build\empty" />
     <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
     <property name="sql.pass" value="" />
     <property name="sun.jnu.encoding" value="Cp1252" />
@@ -68,211 +55,214 @@
     <property name="main.class.available" value="true" />
     <property name="java.specification.name" value="Java Platform API Specification" />
     <property name="javadoc.author" value="false" />
+    <property name="libs.hibernate-support.javadoc" value="" />
     <property name="user.timezone" value="" />
     <property name="manifest.available" value="true" />
-    <property name="libs.junit.javadoc" value="c:/Users/YUANITA/Documents/NetBeansProjects/medrecappx/lib/junit/junit-3.8.2-api.zip" />
+    <property name="libs.spring-framework.maven-pom" value="" />
+    <property name="libs.swing-layout.maven-pom" value="" />
+    <property name="libs.junit.javadoc" value="F:/TA/ci/git/medrecappx/lib/junit/junit-3.8.2-api.zip" />
     <property name="user.script" value="" />
     <property name="path.separator" value=";" />
     <property name="version-output" value="java version &quot;1.7" />
+    <property name="libs.ejb3-persistence.src" value="" />
+    <property name="libs.absolutelayout.classpath" value="C:\Program Files\NetBeans 6.9.1\java\modules\ext\AbsoluteLayout.jar" />
     <property name="sql.user" value="root" />
     <property name="file.reference.junit-4.11.jar" value="lib\junit-4.11.jar" />
+    <property name="libs.jaxb.maven-pom" value="" />
     <property name="file.encoding" value="Cp1252" />
+    <property name="libs.eclipselink.src" value="" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
     <property name="ant.project.default-target" value="default" />
-<<<<<<< HEAD
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.B_SpesialisGuiServiceTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\build\test\results\TEST-medrecappx.Service.B_SpesialisGuiServiceTest.xml crashfile=c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\build\junitvmwatcher7816599685524784885.properties propsfile=c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\build\junit7322616177119159345.properties" />
-=======
     <property name="libs.hibernate-persistence.javadoc" value="" />
     <property name="libs.ejb3-persistence.classpath" value="C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\ejb3-persistence.jar" />
-<<<<<<< HEAD
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.B_SpesialisGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,f:\TA\ci\git\medrecappx\build\test\results\TEST-medrecappx.Service.B_SpesialisGuiServiceTest.xml crashfile=f:\TA\ci\git\medrecappx\build\junitvmwatcher8928722899731382145.properties propsfile=f:\TA\ci\git\medrecappx\build\junit7519213713431194488.properties" />
-=======
-<<<<<<< HEAD
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.B_SpesialisGuiServiceTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\build\test\results\TEST-medrecappx.Service.B_SpesialisGuiServiceTest.xml crashfile=c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\build\junitvmwatcher1706420472207043740.properties propsfile=c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\build\junit5052254676887749826.properties" />
->>>>>>> c8680d56d8eff19605ca6d57eda15addcc15b358
-    <property name="built-jar.properties" value="c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\build\built-jar.properties" />
-    <property name="ant.file" value="c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\build.xml" />
-    <property name="file.reference.fest-assert-1.2.jar" value="lib\fest-swing-1.2\fest-assert-1.2.jar" />
-    <property name="libs.junit_4.src" value="c:/Users/YUANITA/Documents/NetBeansProjects/medrecappx/lib/junit_4/junit-4.5-src.jar" />
-    <property name="do.jar" value="true" />
-    <property name="java.io.tmpdir" value="C:\Users\YUANITA\AppData\Local\Temp\" />
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.B_SpesialisGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,f:\TA\ci\git\medrecappx\build\test\results\TEST-medrecappx.Service.B_SpesialisGuiServiceTest.xml crashfile=f:\TA\ci\git\medrecappx\build\junitvmwatcher7746394495762397126.properties propsfile=f:\TA\ci\git\medrecappx\build\junit3243966460151379592.properties" />
->>>>>>> 23fbea673253309599bdb466beccfe64bb9cc595
-    <property name="built-jar.properties" value="f:\TA\ci\git\medrecappx\build\built-jar.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.B_SpesialisGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\TA\ci\git\medrecappx\build\test\results\TEST-medrecappx.Service.B_SpesialisGuiServiceTest.xml crashfile=F:\TA\ci\git\medrecappx\build\junitvmwatcher725257520310549124.properties propsfile=F:\TA\ci\git\medrecappx\build\junit6628786652732224873.properties" />
+    <property name="built-jar.properties" value="F:\TA\ci\git\medrecappx\build\built-jar.properties" />
     <property name="libs.junit.src" value="" />
-    <property name="ant.file" value="f:\TA\ci\git\medrecappx\build.xml" />
+    <property name="ant.file" value="F:\TA\ci\git\medrecappx\build.xml" />
     <property name="file.reference.fest-assert-1.2.jar" value="lib\fest-swing-1.2\fest-assert-1.2.jar" />
-    <property name="libs.junit_4.src" value="f:/TA/ci/git/medrecappx/lib/junit_4/junit-4.5-src.jar" />
+    <property name="libs.junit_4.src" value="F:/TA/ci/git/medrecappx/lib/junit_4/junit-4.5-src.jar" />
     <property name="do.jar" value="true" />
     <property name="java.io.tmpdir" value="C:\Users\HERNAW~1\AppData\Local\Temp\" />
->>>>>>> 4565b20c5be1a93d8b91d3ba0718ba49f8ea70bd
->>>>>>> c8680d56d8eff19605ca6d57eda15addcc15b358
     <property name="build.test.results.dir" value="build/test/results" />
     <property name="user.language" value="en" />
+    <property name="libs.spring-framework300.src" value="" />
     <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="libs.absolutelayout.src" value="" />
     <property name="javac.compilerargs" value="" />
     <property name="ant.file.type" value="file" />
+    <property name="libs.hibernate-support.maven-pom" value="" />
     <property name="jar.compress" value="false" />
     <property name="debug-transport-by-os" value="dt_shmem" />
-    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="libs.JWSAntTasks.src" value="" />
+    <property name="libs.hibernate-persistence.maven-pom" value="" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="libs.javac-api.maven-pom" value="" />
     <property name="javadoc.private" value="false" />
     <property name="annotation.processing.processors.list" value="" />
     <property name="sun.desktop" value="windows" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="build.test.classes.dir" value="build/test/classes" />
+    <property name="libs.jaxb.src" value="" />
     <property name="file.reference.fest-swing-1.2.jar" value="lib\fest-swing-1.2\fest-swing-1.2.jar" />
+    <property name="libs.MySQLDriver.javadoc" value="" />
     <property name="manifest.available+main.class" value="true" />
+    <property name="libs.beans-binding.javadoc" value="C:\Program Files\NetBeans 6.9.1\java\docs\beansbinding-1.2.1-doc.zip" />
     <property name="file.reference.fest-util-1.1.2.jar" value="lib\fest-swing-1.2\fest-util-1.1.2.jar" />
     <property name="platform.active" value="default_platform" />
     <property name="ap.cmd.line.internal" value="" />
-    <property name="libs.junit_4.javadoc" value="c:/Users/YUANITA/Documents/NetBeansProjects/medrecappx/lib/junit_4/junit-4.5-api.zip" />
+    <property name="libs.spring-framework300.classpath" value="C:\Program Files\NetBeans 6.9.1\ide\modules\ext\commons-logging-1.1.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-aop-3.0.2.RELEASE.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-asm-3.0.2.RELEASE.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-aspects-3.0.2.RELEASE.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-beans-3.0.2.RELEASE.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-context-3.0.2.RELEASE.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-context-support-3.0.2.RELEASE.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-core-3.0.2.RELEASE.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-expression-3.0.2.RELEASE.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-instrument-3.0.2.RELEASE.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.0.2.RELEASE.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-jdbc-3.0.2.RELEASE.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-jms-3.0.2.RELEASE.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-orm-3.0.2.RELEASE.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-oxm-3.0.2.RELEASE.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-test-3.0.2.RELEASE.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-tx-3.0.2.RELEASE.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-web-3.0.2.RELEASE.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.0.2.RELEASE.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-webmvc-3.0.2.RELEASE.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-struts-3.0.2.RELEASE.jar" />
+    <property name="libs.junit_4.javadoc" value="F:/TA/ci/git/medrecappx/lib/junit_4/junit-4.5-api.zip" />
     <property name="endorsed.classpath" value="" />
+    <property name="libs.spring-framework.src" value="" />
+    <property name="libs.beans-binding.maven-pom" value="" />
     <property name="do.mkdist" value="true" />
     <property name="javadoc.encoding" value="UTF-8" />
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
     <property name="do.archive" value="true" />
     <property name="dist.jar" value="dist/MedRecAppX.jar" />
     <property name="meta.inf.dir" value="src/META-INF" />
-    <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on December 23 2013" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
     <property name="javadoc.nonavbar" value="false" />
     <property name="user.properties.file" value="C:\Users\Hernawati Susanti S\.netbeans\6.9\build.properties" />
+    <property name="libs.JWSAntTasks.classpath" value="C:\Program Files\NetBeans 6.9.1\java\ant\extra\org-netbeans-modules-javawebstart-anttasks.jar" />
+    <property name="libs.toplink.classpath" value="C:\Program Files\NetBeans 6.9.1\java\modules\ext\toplink\toplink-essentials.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\toplink\toplink-essentials-agent.jar" />
+    <property name="libs.spring-framework.javadoc" value="" />
     <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
+    <property name="libs.CopyLibs.maven-pom" value="" />
     <property name="sql.driver" value="com.mysql.jdbc.Driver" />
     <property name="build.generated.dir" value="build/generated" />
-    <property name="os.name" value="Windows 7" />
+    <property name="libs.eclipselink.maven-pom" value="" />
+    <property name="os.name" value="Windows 8" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
-    <property name="run.test.classpath" value="c:/Users/YUANITA/Documents/NetBeansProjects/medrecappx/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib\jcalendar-1.4.jar:build/classes:lib\junit-4.11.jar:c:/Users/YUANITA/Documents/NetBeansProjects/medrecappx/lib/junit_4/junit-4.5.jar:lib\fest-swing-1.2\fest-assert-1.2.jar:lib\fest-swing-1.2\fest-reflect-1.2.jar:lib\fest-swing-1.2\fest-swing-1.2.jar:lib\fest-swing-1.2\fest-util-1.1.2.jar:build/test/classes" />
-    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="run.test.classpath" value="F:/TA/ci/git/medrecappx/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib\jcalendar-1.4.jar:build/classes:lib\junit-4.11.jar:F:/TA/ci/git/medrecappx/lib/junit_4/junit-4.5.jar:lib\fest-swing-1.2\fest-assert-1.2.jar:lib\fest-swing-1.2\fest-reflect-1.2.jar:lib\fest-swing-1.2\fest-swing-1.2.jar:lib\fest-swing-1.2\fest-util-1.1.2.jar:build/test/classes" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
     <property name="ant.file.type.MedRecAppX" value="file" />
-    <property name="libs.junit.classpath" value="c:/Users/YUANITA/Documents/NetBeansProjects/medrecappx/lib/junit/junit-3.8.2.jar" />
-    <property name="java.library.path" value="c:\Program Files\Java\jdk1.7.0_21\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\Users\YUANITA\bin;.;C:\Program Files\Git\local\bin;C:\Program Files\Git\mingw\bin;C:\Program Files\Git\bin;c:\Windows\system32;c:\Windows;c:\Windows\System32\Wbem;c:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\Java\jdk1.7.0_21;c:\xampp\php;d:\ant\bin;c:\Program Files\Java\jre7\bin;c:\Program Files\Jenkins;c:\Program Files\Bazaar;c:\Program Files\Mercurial;c:\Program Files\TortoiseGit\bin;c:\Program Files\TortoiseHg\;c:\Program Files\TortoiseSVN\bin;." />
+    <property name="libs.CopyLibs.src" value="" />
+    <property name="libs.junit.classpath" value="F:/TA/ci/git/medrecappx/lib/junit/junit-3.8.2.jar" />
+    <property name="libs.beans-binding.src" value="" />
+    <property name="java.library.path" value="c:\Program Files\Java\jdk1.7.0_45\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;c:\Users\Hernawati Susanti S\bin;.;C:\Program Files (x86)\Git\local\bin;C:\Program Files (x86)\Git\mingw\bin;C:\Program Files (x86)\Git\bin;c:\windows\system32;c:\windows;c:\windows\System32\Wbem;c:\windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;c:\Program Files\Samsung\AllShare Framework DMS\1.3.14\;c:\Program Files\Samsung\AllShare Framework DMS\1.3.14\64bit\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;f:\xampp\php;c:\Program Files\Java\jdk1.7.0_45\bin;f:\ant\bin;c:\Program Files\Java\jre7\bin;c:\Program Files\TortoiseGit\bin;f:\maven\bin;c:\Program Files (x86)\Java\jdk1.7.0_13\bin;.;." />
+    <property name="libs.PostgreSQLDriver.javadoc" value="" />
     <property name="do.archive+manifest.available+main.class+mkdist.available" value="true" />
+    <property name="libs.toplink.javadoc" value="" />
     <property name="ant.java.version" value="1.7" />
-    <property name="basedir" value="c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx" />
-    <property name="javadoc.noindex" value="false" />
     <property name="java.class.version" value="51.0" />
-    <property name="javac.test.classpath" value="c:/Users/YUANITA/Documents/NetBeansProjects/medrecappx/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib\jcalendar-1.4.jar:build/classes:lib\junit-4.11.jar:c:/Users/YUANITA/Documents/NetBeansProjects/medrecappx/lib/junit_4/junit-4.5.jar:lib\fest-swing-1.2\fest-assert-1.2.jar:lib\fest-swing-1.2\fest-reflect-1.2.jar:lib\fest-swing-1.2\fest-swing-1.2.jar:lib\fest-swing-1.2\fest-util-1.1.2.jar" />
-    <property name="javac.processorpath" value="c:/Users/YUANITA/Documents/NetBeansProjects/medrecappx/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib\jcalendar-1.4.jar" />
-    <property name="ant.home" value="d:/ant" />
+    <property name="javadoc.noindex" value="false" />
+    <property name="basedir" value="F:\TA\ci\git\medrecappx" />
+    <property name="javac.test.classpath" value="F:/TA/ci/git/medrecappx/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib\jcalendar-1.4.jar:build/classes:lib\junit-4.11.jar:F:/TA/ci/git/medrecappx/lib/junit_4/junit-4.5.jar:lib\fest-swing-1.2\fest-assert-1.2.jar:lib\fest-swing-1.2\fest-reflect-1.2.jar:lib\fest-swing-1.2\fest-swing-1.2.jar:lib\fest-swing-1.2\fest-util-1.1.2.jar" />
+    <property name="javac.processorpath" value="F:/TA/ci/git/medrecappx/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib\jcalendar-1.4.jar" />
+    <property name="ant.home" value="f:/ant" />
+    <property name="libs.hibernate-persistence.src" value="" />
     <property name="javadoc.splitindex" value="true" />
-    <property name="javac.test.processorpath" value="c:/Users/YUANITA/Documents/NetBeansProjects/medrecappx/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib\jcalendar-1.4.jar:build/classes:lib\junit-4.11.jar:c:/Users/YUANITA/Documents/NetBeansProjects/medrecappx/lib/junit_4/junit-4.5.jar:lib\fest-swing-1.2\fest-assert-1.2.jar:lib\fest-swing-1.2\fest-reflect-1.2.jar:lib\fest-swing-1.2\fest-swing-1.2.jar:lib\fest-swing-1.2\fest-util-1.1.2.jar" />
+    <property name="libs.toplink.src" value="" />
+    <property name="libs.javac-api.javadoc" value="" />
+    <property name="javac.test.processorpath" value="F:/TA/ci/git/medrecappx/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib\jcalendar-1.4.jar:build/classes:lib\junit-4.11.jar:F:/TA/ci/git/medrecappx/lib/junit_4/junit-4.5.jar:lib\fest-swing-1.2\fest-assert-1.2.jar:lib\fest-swing-1.2\fest-reflect-1.2.jar:lib\fest-swing-1.2\fest-swing-1.2.jar:lib\fest-swing-1.2\fest-util-1.1.2.jar" />
     <property name="javadoc.preview" value="true" />
-    <property name="libs.junit_4.classpath" value="c:/Users/YUANITA/Documents/NetBeansProjects/medrecappx/lib/junit_4/junit-4.5.jar" />
-    <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.7.0_21\jre\bin" />
+    <property name="libs.MySQLDriver.maven-pom" value="" />
+    <property name="libs.CopyLibs.javadoc" value="" />
+    <property name="libs.PostgreSQLDriver.classpath" value="C:\Program Files\NetBeans 6.9.1\ide\modules\ext\postgresql-8.3-603.jdbc3.jar" />
+    <property name="libs.jaxws21.maven-pom" value="" />
+    <property name="libs.junit_4.classpath" value="F:/TA/ci/git/medrecappx/lib/junit_4/junit-4.5.jar" />
     <property name="build.dir" value="build" />
+    <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.7.0_45\jre\bin" />
     <property name="application.title" value="MedRecAppX" />
-    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="libs.swing-app-framework.classpath" value="C:\Program Files\NetBeans 6.9.1\java\modules\ext\appframework-1.0.3.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\swing-worker-1.1.jar" />
+    <property name="libs.ejb3-persistence.javadoc" value="" />
     <property name="user.variant" value="" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="libraries.dir.nativedirsep" value="F:\TA\ci\git\medrecappx\lib" />
     <property name="javadoc.encoding.used" value="UTF-8" />
-    <property name="libraries.dir.nativedirsep" value="c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\lib" />
     <property name="&lt;&lt;&lt;&lt;&lt;&lt;&lt;" value="HEAD" />
     <property name="javadoc.windowtitle" value="" />
+    <property name="libs.hibernate-support.src" value="" />
     <property name="annotation.processing.enabled" value="true" />
     <property name="build.generated.sources.dir" value="build/generated-sources" />
     <property name="run.jvmargs" value="" />
     <property name="file.reference.jcalendar-1.4.jar" value="lib\jcalendar-1.4.jar" />
     <property name="ant.project.name" value="MedRecAppX" />
+    <property name="libs.spring-framework.classpath" value="C:\Program Files\NetBeans 6.9.1\ide\modules\ext\commons-logging-1.1.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\spring\spring-2.5.6.SEC01.jar" />
+    <property name="libs.swing-layout.classpath" value="C:\Program Files\NetBeans 6.9.1\platform\modules\ext\swing-layout-1.0.4.jar" />
     <property name="java.vm.specification.version" value="1.7" />
-    <property name="work.dir" value="c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx" />
+    <property name="libs.jaxb.classpath" value="C:\Program Files\NetBeans 6.9.1\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans 6.9.1\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans 6.9.1\ide\modules\ext\jaxb\jaxb1-impl.jar;C:\Program Files\NetBeans 6.9.1\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 6.9.1\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files\NetBeans 6.9.1\ide\modules\ext\jaxb\api\jsr173_api.jar" />
+    <property name="work.dir" value="F:\TA\ci\git\medrecappx" />
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
     <property name="javadoc.use" value="true" />
-    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
-    <property name="java.ext.dirs" value="c:\Program Files\Java\jdk1.7.0_21\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
-    <property name="os.version" value="6.1" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="java.ext.dirs" value="c:\Program Files\Java\jdk1.7.0_45\jre\lib\ext;C:\windows\Sun\Java\lib\ext" />
+    <property name="os.version" value="6.2" />
     <property name="excludes" value="" />
-    <property name="user.home" value="C:\Users\YUANITA" />
+    <property name="user.home" value="C:\Users\Hernawati Susanti S" />
     <property name="libraries.basename" value="nblibraries" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
-    <property name="user.dir" value="c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx" />
+    <property name="libs.absolutelayout.maven-pom" value="" />
+    <property name="user.dir" value="F:\TA\ci\git\medrecappx" />
     <property name="debug-transport" value="dt_shmem" />
+    <property name="libs.ejb3-persistence.maven-pom" value="" />
     <property name="&gt;&gt;&gt;&gt;&gt;&gt;&gt;" value="4565b20c5be1a93d8b91d3ba0718ba49f8ea70bd" />
     <property name="application.args" value="" />
     <property name="sun.cpu.endian" value="little" />
     <property name="compile.on.save" value="true" />
+    <property name="libs.hibernate-support.classpath" value="C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\antlr-2.7.6.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\asm.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\asm-attrs.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\cglib-2.1.3.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\commons-collections-2.1.1.jar;C:\Program Files\NetBeans 6.9.1\ide\modules\ext\commons-logging-1.1.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\dom4j-1.6.1.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\ehcache-1.2.3.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\jdbc2_0-stdext.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\jta.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\hibernate3.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\hibernate-tools.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\hibernate-annotations.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\hibernate-commons-annotations.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\hibernate-entitymanager.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\javassist.jar" />
     <property name="endorsed.classpath.cmd.line.arg" value="" />
     <property name="mysql.dbname" value="medrec" />
     <property name="jar.index" value="false" />
-    <property name="libraries.dir" value="c:/Users/YUANITA/Documents/NetBeansProjects/medrecappx/lib" />
-    <property name="java.vm.version" value="23.21-b01" />
-    <property name="java.class.path" value="c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\lib\MySQLDriver\mysql-connector-java-5.1.6-bin.jar;c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\lib\jcalendar-1.4.jar;c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\build\classes;c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\lib\junit-4.11.jar;c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\lib\junit_4\junit-4.5.jar;c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\lib\fest-swing-1.2\fest-assert-1.2.jar;c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\lib\fest-swing-1.2\fest-reflect-1.2.jar;c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\lib\fest-swing-1.2\fest-swing-1.2.jar;c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\lib\fest-swing-1.2\fest-util-1.1.2.jar;c:\Users\YUANITA\Documents\NetBeansProjects\medrecappx\build\test\classes;D:\ant\lib\ant-launcher.jar;d:\ant\lib\ant.jar;d:\ant\lib\ant-junit.jar;d:\ant\lib\ant-junit4.jar" />
+    <property name="libs.spring-framework300.javadoc" value="" />
+    <property name="libs.MySQLDriver.src" value="" />
+    <property name="libraries.dir" value="F:/TA/ci/git/medrecappx/lib" />
+    <property name="java.vm.version" value="24.45-b08" />
     <property name="annotation.processing.processor.options" value="" />
+    <property name="libs.hibernate-persistence.classpath" value="C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\antlr-2.7.6.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\asm.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\asm-attrs.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\cglib-2.1.3.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\commons-collections-2.1.1.jar;C:\Program Files\NetBeans 6.9.1\ide\modules\ext\commons-logging-1.1.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\dom4j-1.6.1.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\ehcache-1.2.3.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\jdbc2_0-stdext.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\jta.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\hibernate3.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\hibernate-tools.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\hibernate-annotations.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\hibernate-commons-annotations.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\hibernate-entitymanager.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\javassist.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\ejb3-persistence.jar" />
+    <property name="java.class.path" value="F:\TA\ci\git\medrecappx\lib\MySQLDriver\mysql-connector-java-5.1.6-bin.jar;F:\TA\ci\git\medrecappx\lib\jcalendar-1.4.jar;F:\TA\ci\git\medrecappx\build\classes;F:\TA\ci\git\medrecappx\lib\junit-4.11.jar;F:\TA\ci\git\medrecappx\lib\junit_4\junit-4.5.jar;F:\TA\ci\git\medrecappx\lib\fest-swing-1.2\fest-assert-1.2.jar;F:\TA\ci\git\medrecappx\lib\fest-swing-1.2\fest-reflect-1.2.jar;F:\TA\ci\git\medrecappx\lib\fest-swing-1.2\fest-swing-1.2.jar;F:\TA\ci\git\medrecappx\lib\fest-swing-1.2\fest-util-1.1.2.jar;F:\TA\ci\git\medrecappx\build\test\classes;F:\ant\lib\ant-launcher.jar;f:\ant\lib\ant.jar;f:\ant\lib\ant-junit.jar;f:\ant\lib\ant-junit4.jar" />
     <property name="jdbc.jar" value="lib\MySQLDriver\mysql-connector-java-5.1.6-bin.jar" />
-    <property name="ant.library.dir" value="d:/ant/lib" />
-    <property name="os.arch" value="x86" />
+    <property name="ant.library.dir" value="f:/ant/lib" />
+    <property name="os.arch" value="amd64" />
     <property name="javac.deprecation" value="false" />
     <property name="build.classes.excludes" value="**/*.java,**/*.form" />
     <property name="dist.dir" value="dist" />
-    <property name="debug.classpath" value="c:/Users/YUANITA/Documents/NetBeansProjects/medrecappx/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib\jcalendar-1.4.jar:build/classes" />
+    <property name="debug.classpath" value="F:/TA/ci/git/medrecappx/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib\jcalendar-1.4.jar:build/classes" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
     <property name="annotation.processing.enabled.in.editor" value="false" />
-    <property name="ant.core.lib" value="d:\ant\lib\ant.jar" />
+    <property name="ant.core.lib" value="f:\ant\lib\ant.jar" />
     <property name="java.vm.specification.vendor" value="Oracle Corporation" />
     <property name="do.depend" value="false" />
     <property name="file.separator" value="\" />
-    <property name="java.runtime.version" value="1.7.0_21-b11" />
-    <property name="sun.boot.class.path" value="c:\Program Files\Java\jdk1.7.0_21\jre\lib\resources.jar;c:\Program Files\Java\jdk1.7.0_21\jre\lib\rt.jar;c:\Program Files\Java\jdk1.7.0_21\jre\lib\sunrsasign.jar;c:\Program Files\Java\jdk1.7.0_21\jre\lib\jsse.jar;c:\Program Files\Java\jdk1.7.0_21\jre\lib\jce.jar;c:\Program Files\Java\jdk1.7.0_21\jre\lib\charsets.jar;c:\Program Files\Java\jdk1.7.0_21\jre\lib\jfr.jar;c:\Program Files\Java\jdk1.7.0_21\jre\classes" />
-    <property name="debug.test.classpath" value="c:/Users/YUANITA/Documents/NetBeansProjects/medrecappx/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib\jcalendar-1.4.jar:build/classes:lib\junit-4.11.jar:c:/Users/YUANITA/Documents/NetBeansProjects/medrecappx/lib/junit_4/junit-4.5.jar:lib\fest-swing-1.2\fest-assert-1.2.jar:lib\fest-swing-1.2\fest-reflect-1.2.jar:lib\fest-swing-1.2\fest-swing-1.2.jar:lib\fest-swing-1.2\fest-util-1.1.2.jar:build/test/classes" />
+    <property name="java.runtime.version" value="1.7.0_45-b18" />
+    <property name="sun.boot.class.path" value="c:\Program Files\Java\jdk1.7.0_45\jre\lib\resources.jar;c:\Program Files\Java\jdk1.7.0_45\jre\lib\rt.jar;c:\Program Files\Java\jdk1.7.0_45\jre\lib\sunrsasign.jar;c:\Program Files\Java\jdk1.7.0_45\jre\lib\jsse.jar;c:\Program Files\Java\jdk1.7.0_45\jre\lib\jce.jar;c:\Program Files\Java\jdk1.7.0_45\jre\lib\charsets.jar;c:\Program Files\Java\jdk1.7.0_45\jre\lib\jfr.jar;c:\Program Files\Java\jdk1.7.0_45\jre\classes" />
+    <property name="debug.test.classpath" value="F:/TA/ci/git/medrecappx/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib\jcalendar-1.4.jar:build/classes:lib\junit-4.11.jar:F:/TA/ci/git/medrecappx/lib/junit_4/junit-4.5.jar:lib\fest-swing-1.2\fest-assert-1.2.jar:lib\fest-swing-1.2\fest-reflect-1.2.jar:lib\fest-swing-1.2\fest-swing-1.2.jar:lib\fest-swing-1.2\fest-util-1.1.2.jar:build/test/classes" />
+    <property name="libs.beans-binding.classpath" value="C:\Program Files\NetBeans 6.9.1\java\modules\ext\beansbinding-1.2.1.jar" />
     <property name="main.class" value="medrecappx.Main" />
     <property name="have.tests" value="true" />
     <property name="sql.url" value="jdbc:mysql://localhost:3306/medrec" />
+    <property name="libs.JWSAntTasks.maven-pom" value="" />
+    <property name="libs.javac-api.classpath" value="C:\Program Files\NetBeans 6.9.1\java\modules\ext\javac-api-nb-7.0-b07.jar" />
     <property name="user.country" value="US" />
     <property name="javadoc.notree" value="false" />
     <property name="file.reference.fest-reflect-1.2.jar" value="lib\fest-swing-1.2\fest-reflect-1.2.jar" />
     <property name="ant.file.type.MedRecApp-impl" value="file" />
+    <property name="libs.spring-framework300.maven-pom" value="" />
+    <property name="libs.jaxws21.javadoc" value="C:\Program Files\NetBeans 6.9.1\java\docs\jaxws-api-doc.zip" />
     <property name="javadoc.additionalparam" value="" />
-    <property name="javac.classpath" value="c:/Users/YUANITA/Documents/NetBeansProjects/medrecappx/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib\jcalendar-1.4.jar" />
-    <property name="default.javac.target" value="1.4" />
+    <property name="javac.classpath" value="F:/TA/ci/git/medrecappx/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib\jcalendar-1.4.jar" />
+    <property name="default.javac.target" value="1.7" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="do.archive+manifest.available" value="true" />
-    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="libs.swing-layout.javadoc" value="C:\Program Files\NetBeans 6.9.1\platform\docs\swing-layout-1.0.4-doc.zip" />
+    <property name="libs.swing-layout.src" value="C:\Program Files\NetBeans 6.9.1\platform\docs\swing-layout-1.0.4-src.zip" />
     <property name="javac.target" value="1.5" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="libs.eclipselink.classpath" value="C:\Program Files\NetBeans 6.9.1\java\modules\ext\eclipselink\eclipselink-2.0.2.jar;C:\Program Files\NetBeans 6.9.1\java\modules\ext\eclipselink\eclipselink-javax.persistence-2.0.jar" />
     <property name="runtime.encoding" value="UTF-8" />
+    <property name="libs.swing-app-framework.src" value="" />
     <property name="java.specification.version" value="1.7" />
-    <property name="sun.arch.data.model" value="32" />
+    <property name="libs.JWSAntTasks.javadoc" value="" />
+    <property name="sun.arch.data.model" value="64" />
     <property name="" value="======" />
   </properties>
-<<<<<<< HEAD
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="a_insertDataSpesialisKosong" time="5.376" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="b_insertDataSpesialis" time="15.96" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="c_updateDataSpesialisKosong" time="7.616" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="d_updateDataSpesialis" time="5.361" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="e_deleteDataSpesialis" time="4.232" />
-=======
-<<<<<<< HEAD
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="a_insertDataSpesialisKosong" time="6.333" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="b_insertDataSpesialis" time="18.165" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="c_updateDataSpesialisKosong" time="8.805" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="d_updateDataSpesialis" time="6.209" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="e_deleteDataSpesialis" time="5.491" />
-=======
-<<<<<<< HEAD
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="a_insertDataSpesialisKosong" time="5.677" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="b_insertDataSpesialis" time="15.927" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="c_updateDataSpesialisKosong" time="7.688" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="d_updateDataSpesialis" time="5.559" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="e_deleteDataSpesialis" time="4.335" />
-=======
-<<<<<<< HEAD
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="a_insertDataSpesialisKosong" time="6.499" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="b_insertDataSpesialis" time="18.114" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="c_updateDataSpesialisKosong" time="8.704" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="d_updateDataSpesialis" time="6.256" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="e_deleteDataSpesialis" time="5.772" />
-=======
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="a_insertDataSpesialisKosong" time="5.373" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="b_insertDataSpesialis" time="15.91" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="c_updateDataSpesialisKosong" time="7.601" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="d_updateDataSpesialis" time="5.259" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="e_deleteDataSpesialis" time="4.12" />
->>>>>>> 69c69a3e25015a2e4a1aa8213a30dd757ccb70e9
->>>>>>> 4565b20c5be1a93d8b91d3ba0718ba49f8ea70bd
->>>>>>> 23fbea673253309599bdb466beccfe64bb9cc595
->>>>>>> c8680d56d8eff19605ca6d57eda15addcc15b358
+  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="a_insertDataSpesialisKosong" time="6.567" />
+  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="b_insertDataSpesialis" time="18.706" />
+  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="c_updateDataSpesialisKosong" time="8.845" />
+  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="d_updateDataSpesialis" time="6.443" />
+  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="e_deleteDataSpesialis" time="6.006" />
   <system-out><![CDATA[1. InsertDataSpesialisKosong
 2. InsertDataSpesialis
 3. UpdateDataSpesialisKosong
