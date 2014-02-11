@@ -8,10 +8,10 @@
  *
  * Created on Dec 19, 2013, 11:15:55 AM
  */
-
 package medrecappx.Gui;
 
 import java.awt.Dimension;
+import medrecappx.Gui.Internal.FrmIntSpesialis;
 
 /**
  *
@@ -239,75 +239,68 @@ public class FrmUtama extends javax.swing.JFrame {
 
     private void menuSpesialisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuSpesialisActionPerformed
         // TODO add your handling code here:
-
+        jDesktopPane1.removeAll();
+        jDesktopPane1.repaint();
+        FrmIntSpesialis fis = new FrmIntSpesialis();
+        Dimension parentSize = jDesktopPane1.getSize();
+        Dimension childSize = fis.getSize();
+        fis.setLocation((parentSize.width - childSize.width) / 2, (parentSize.height - childSize.height) / 2);
+        jDesktopPane1.add(fis);
+        fis.show();
+        fis.toFront();
     }//GEN-LAST:event_menuSpesialisActionPerformed
 
     private void menuJaminanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuJaminanActionPerformed
         // TODO add your handling code here:
-        
     }//GEN-LAST:event_menuJaminanActionPerformed
 
     private void menuObatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuObatActionPerformed
         // TODO add your handling code here:
-        
     }//GEN-LAST:event_menuObatActionPerformed
 
     private void menuPendaftaranPasBaruActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuPendaftaranPasBaruActionPerformed
         // TODO add your handling code here:
-        
     }//GEN-LAST:event_menuPendaftaranPasBaruActionPerformed
 
     private void menuPoliDalamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuPoliDalamActionPerformed
         // TODO add your handling code here:
-        
     }//GEN-LAST:event_menuPoliDalamActionPerformed
 
     private void menuPendaftaranPasLamaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuPendaftaranPasLamaActionPerformed
         // TODO add your handling code here:
-        
     }//GEN-LAST:event_menuPendaftaranPasLamaActionPerformed
 
     private void menuPoliJantungActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuPoliJantungActionPerformed
         // TODO add your handling code here:
-        
     }//GEN-LAST:event_menuPoliJantungActionPerformed
 
     private void menuPoliParuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuPoliParuActionPerformed
         // TODO add your handling code here:
-        
     }//GEN-LAST:event_menuPoliParuActionPerformed
 
     private void menuPoliBedahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuPoliBedahActionPerformed
         // TODO add your handling code here:
-        
     }//GEN-LAST:event_menuPoliBedahActionPerformed
 
     private void menuDokterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuDokterActionPerformed
         // TODO add your handling code here:
-        
     }//GEN-LAST:event_menuDokterActionPerformed
 
     private void menuPerawatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuPerawatActionPerformed
         // TODO add your handling code here:
-        
     }//GEN-LAST:event_menuPerawatActionPerformed
 
     private void menuStafActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuStafActionPerformed
         // TODO add your handling code here:
-        
     }//GEN-LAST:event_menuStafActionPerformed
 
     private void menuDataTindakanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuDataTindakanActionPerformed
         // TODO add your handling code here:
-        
     }//GEN-LAST:event_menuDataTindakanActionPerformed
 
     private void menuRekmedPasienActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuRekmedPasienActionPerformed
         // TODO add your handling code here:
-        
     }//GEN-LAST:event_menuRekmedPasienActionPerformed
-    
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JDesktopPane jDesktopPane1;
     private javax.swing.JMenu jMenu1;
@@ -335,5 +328,4 @@ public class FrmUtama extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuSpesialis;
     private javax.swing.JMenuItem menuStaf;
     // End of variables declaration//GEN-END:variables
-
 }
