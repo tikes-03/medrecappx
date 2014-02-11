@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<<<<<<< HEAD
-<testsuite errors="0" failures="0" hostname="Samsung" name="medrecappx.Service.B_SpesialisGuiServiceTest" skipped="0" tests="5" time="50.197" timestamp="2014-02-11T08:33:44">
-=======
-<testsuite errors="0" failures="0" hostname="asus-PC" name="medrecappx.Service.B_SpesialisGuiServiceTest" skipped="0" tests="5" time="40.702" timestamp="2014-02-10T17:31:13">
->>>>>>> 69c69a3e25015a2e4a1aa8213a30dd757ccb70e9
+<testsuite errors="0" failures="0" hostname="Samsung" name="medrecappx.Service.B_SpesialisGuiServiceTest" skipped="0" tests="5" time="49.73" timestamp="2014-02-11T09:06:28">
   <properties>
     <property name="default.javac.source" value="1.7" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -79,13 +75,8 @@
     <property name="ant.project.default-target" value="default" />
     <property name="libs.hibernate-persistence.javadoc" value="" />
     <property name="libs.ejb3-persistence.classpath" value="C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\ejb3-persistence.jar" />
-<<<<<<< HEAD
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.B_SpesialisGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,f:\TA\ci\git\medrecappx\build\test\results\TEST-medrecappx.Service.B_SpesialisGuiServiceTest.xml crashfile=f:\TA\ci\git\medrecappx\build\junitvmwatcher7746394495762397126.properties propsfile=f:\TA\ci\git\medrecappx\build\junit3243966460151379592.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.B_SpesialisGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,f:\TA\ci\git\medrecappx\build\test\results\TEST-medrecappx.Service.B_SpesialisGuiServiceTest.xml crashfile=f:\TA\ci\git\medrecappx\build\junitvmwatcher8928722899731382145.properties propsfile=f:\TA\ci\git\medrecappx\build\junit7519213713431194488.properties" />
     <property name="built-jar.properties" value="f:\TA\ci\git\medrecappx\build\built-jar.properties" />
-=======
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.B_SpesialisGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\test\results\TEST-medrecappx.Service.B_SpesialisGuiServiceTest.xml crashfile=C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\junitvmwatcher5093114105829953315.properties propsfile=C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\junit2817507699728616237.properties" />
-    <property name="built-jar.properties" value="C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\built-jar.properties" />
->>>>>>> 69c69a3e25015a2e4a1aa8213a30dd757ccb70e9
     <property name="libs.junit.src" value="" />
     <property name="ant.file" value="f:\TA\ci\git\medrecappx\build.xml" />
     <property name="file.reference.fest-assert-1.2.jar" value="lib\fest-swing-1.2\fest-assert-1.2.jar" />
@@ -264,19 +255,11 @@
     <property name="libs.JWSAntTasks.javadoc" value="" />
     <property name="sun.arch.data.model" value="64" />
   </properties>
-<<<<<<< HEAD
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="a_insertDataSpesialisKosong" time="6.499" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="b_insertDataSpesialis" time="18.114" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="c_updateDataSpesialisKosong" time="8.704" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="d_updateDataSpesialis" time="6.256" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="e_deleteDataSpesialis" time="5.772" />
-=======
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="a_insertDataSpesialisKosong" time="5.373" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="b_insertDataSpesialis" time="15.91" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="c_updateDataSpesialisKosong" time="7.601" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="d_updateDataSpesialis" time="5.259" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="e_deleteDataSpesialis" time="4.12" />
->>>>>>> 69c69a3e25015a2e4a1aa8213a30dd757ccb70e9
+  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="a_insertDataSpesialisKosong" time="6.333" />
+  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="b_insertDataSpesialis" time="18.165" />
+  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="c_updateDataSpesialisKosong" time="8.805" />
+  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="d_updateDataSpesialis" time="6.209" />
+  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="e_deleteDataSpesialis" time="5.491" />
   <system-out><![CDATA[1. InsertDataSpesialisKosong
 2. InsertDataSpesialis
 3. UpdateDataSpesialisKosong

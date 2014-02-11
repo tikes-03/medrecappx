@@ -11,11 +11,9 @@
 package medrecappx.Gui;
 
 import java.awt.Dimension;
-<<<<<<< HEAD
 import medrecappx.Gui.Internal.FrmIntJaminan;
-=======
 import medrecappx.Gui.Internal.FrmIntObat;
->>>>>>> 69c69a3e25015a2e4a1aa8213a30dd757ccb70e9
+
 import medrecappx.Gui.Internal.FrmIntSpesialis;
 
 /**

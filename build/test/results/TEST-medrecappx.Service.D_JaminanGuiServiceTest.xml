@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Samsung" name="medrecappx.Service.D_JaminanGuiServiceTest" skipped="0" tests="5" time="60.973" timestamp="2014-02-11T08:34:39">
+<testsuite errors="0" failures="0" hostname="Samsung" name="medrecappx.Service.D_JaminanGuiServiceTest" skipped="0" tests="5" time="61.015" timestamp="2014-02-11T09:07:23">
   <properties>
     <property name="default.javac.source" value="1.7" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -75,7 +75,7 @@
     <property name="ant.project.default-target" value="default" />
     <property name="libs.hibernate-persistence.javadoc" value="" />
     <property name="libs.ejb3-persistence.classpath" value="C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\ejb3-persistence.jar" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.D_JaminanGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,f:\TA\ci\git\medrecappx\build\test\results\TEST-medrecappx.Service.D_JaminanGuiServiceTest.xml crashfile=f:\TA\ci\git\medrecappx\build\junitvmwatcher2081313110719284433.properties propsfile=f:\TA\ci\git\medrecappx\build\junit6104239903373864800.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.D_JaminanGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,f:\TA\ci\git\medrecappx\build\test\results\TEST-medrecappx.Service.D_JaminanGuiServiceTest.xml crashfile=f:\TA\ci\git\medrecappx\build\junitvmwatcher566768853750092541.properties propsfile=f:\TA\ci\git\medrecappx\build\junit1902429724499088880.properties" />
     <property name="built-jar.properties" value="f:\TA\ci\git\medrecappx\build\built-jar.properties" />
     <property name="libs.junit.src" value="" />
     <property name="ant.file" value="f:\TA\ci\git\medrecappx\build.xml" />
@@ -255,11 +255,11 @@
     <property name="libs.JWSAntTasks.javadoc" value="" />
     <property name="sun.arch.data.model" value="64" />
   </properties>
-  <testcase classname="medrecappx.Service.D_JaminanGuiServiceTest" name="a_insertDataJaminanKosong" time="6.973" />
-  <testcase classname="medrecappx.Service.D_JaminanGuiServiceTest" name="b_insertDataJaminan" time="25.967" />
-  <testcase classname="medrecappx.Service.D_JaminanGuiServiceTest" name="c_updateDataJaminanKosong" time="7.706" />
-  <testcase classname="medrecappx.Service.D_JaminanGuiServiceTest" name="d_updateDataJaminan" time="10.109" />
-  <testcase classname="medrecappx.Service.D_JaminanGuiServiceTest" name="e_deleteDataJaminan" time="5.335" />
+  <testcase classname="medrecappx.Service.D_JaminanGuiServiceTest" name="a_insertDataJaminanKosong" time="7.02" />
+  <testcase classname="medrecappx.Service.D_JaminanGuiServiceTest" name="b_insertDataJaminan" time="25.931" />
+  <testcase classname="medrecappx.Service.D_JaminanGuiServiceTest" name="c_updateDataJaminanKosong" time="7.737" />
+  <testcase classname="medrecappx.Service.D_JaminanGuiServiceTest" name="d_updateDataJaminan" time="10.016" />
+  <testcase classname="medrecappx.Service.D_JaminanGuiServiceTest" name="e_deleteDataJaminan" time="5.397" />
   <system-out><![CDATA[1. InsertDataJaminanKosong
 2. InsertDataJaminan
 3. UpdateDataJaminanKosong
