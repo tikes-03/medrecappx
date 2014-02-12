@@ -246,10 +246,12 @@ is divided into following sections:
         <property name="jar.index" value="false"/>
         <available file="${meta.inf.dir}/persistence.xml" property="has.persistence.xml"/>
     </target>
+    
     <target name="-post-init">
         <!-- Empty placeholder for easier customization. -->
         <!-- You can override this target in the ../build.xml file. -->
-    </target>
+    </target>    
+    
     <target depends="-pre-init,-init-private,-init-libraries,-init-user,-init-project,-do-init" name="-init-check">
         <fail unless="src.dir">Must set src.dir</fail>
         <fail unless="test.src.dir">Must set test.src.dir</fail>
@@ -549,7 +551,7 @@ is divided into following sections:
     <target depends="-init-ap-cmdline-properties,-init-ap-cmdline-supported" name="-init-ap-cmdline">
         <property name="ap.cmd.line.internal" value=""/>
     </target>
-    <target depends="-pre-init,-init-private,-init-libraries,-init-user,-init-project,-do-init,-post-init,-init-check,-init-macrodef-property,-init-macrodef-javac,-init-macrodef-junit,-init-macrodef-nbjpda,-init-macrodef-debug,-init-macrodef-java,-init-presetdef-jar,-init-ap-cmdline" name="init"/>
+    <target depends="-pre-init,-init-private,-init-libraries,-init-user,-init-project,-do-init,-post-init,-init-check,-init-macrodef-property,-init-macrodef-javac,-init-macrodef-junit,-init-macrodef-nbjpda,-init-macrodef-debug,-init-macrodef-java,-init-presetdef-jar,-init-ap-cmdline" name="init"/>	
 
     <!--
                 ===================
@@ -582,10 +584,12 @@ is divided into following sections:
     <target depends="init,deps-jar" name="-pre-pre-compile">
         <mkdir dir="${build.classes.dir}"/>
     </target>
+    
     <target name="-pre-compile">
         <!-- Empty placeholder for easier customization. -->
         <!-- You can override this target in the ../build.xml file. -->
-    </target>
+    </target>    
+    
     <target if="do.depend.true" name="-compile-depend">
         <pathconvert property="build.generated.subdirs">
             <dirset dir="${build.generated.sources.dir}" erroronmissingdir="false">
@@ -605,26 +609,34 @@ is divided into following sections:
         <copy todir="${build.classes.dir}/META-INF">
             <fileset dir="${meta.inf.dir}" includes="persistence.xml"/>
         </copy>
-    </target>
+    </target>	
+
     <target name="-post-compile">
         <!-- Empty placeholder for easier customization. -->
         <!-- You can override this target in the ../build.xml file. -->
     </target>
     <target depends="init,deps-jar,-verify-automatic-build,-pre-pre-compile,-pre-compile,-do-compile,-post-compile" description="Compile project." name="compile"/>
+    
     <target name="-pre-compile-single">
         <!-- Empty placeholder for easier customization. -->
         <!-- You can override this target in the ../build.xml file. -->
     </target>
+    
+    
     <target depends="init,deps-jar,-pre-pre-compile" name="-do-compile-single">
         <fail unless="javac.includes">Must select some files in the IDE or set javac.includes</fail>
         <j2seproject3:force-recompile/>
         <j2seproject3:javac excludes="" gensrcdir="${build.generated.sources.dir}" includes="${javac.includes}" sourcepath="${src.dir}"/>
-    </target>
+    </target>	
+	
     <target name="-post-compile-single">
         <!-- Empty placeholder for easier customization. -->
         <!-- You can override this target in the ../build.xml file. -->
     </target>
-    <target depends="init,deps-jar,-verify-automatic-build,-pre-pre-compile,-pre-compile-single,-do-compile-single,-post-compile-single" name="compile-single"/>
+    
+        
+    <target depends="init,deps-jar,-verify-automatic-build,-pre-pre-compile,-pre-compile-single,-do-compile-single,-post-compile-single" name="compile-single"/>	
+
     <!--
                 ====================
                 JAR BUILDING SECTION
@@ -846,7 +858,12 @@ is divided into following sections:
     <target depends="init" if="have.tests" name="-pre-test-run">
         <mkdir dir="${build.test.results.dir}"/>
     </target>
-    <target depends="init,compile-test,-pre-test-run" if="have.tests" name="-do-test-run">
+    <!--
+				==============================================================
+	******************************** PEMBUATAN DATABASE ********************************
+				==============================================================
+    -->
+    <target depends="init,compile-test,-pre-test-run, create-db" if="have.tests" name="-do-test-run">
         <j2seproject3:junit testincludes="**/*Test.java"/>
     </target>
     <target depends="init,compile-test,-pre-test-run,-do-test-run" if="have.tests" name="-post-test-run">
@@ -859,7 +876,7 @@ is divided into following sections:
     <!--
     <target depends="init,compile-test,-pre-test-run,-do-test-run,test-report,-post-test-run,-test-browse" description="Run unit tests." name="test"/>
     -->
-    <target depends="create-db,-do-test-run,drop-db" description="Run unit tests." name="test"/>
+    <target depends="-do-test-run,drop-db" description="Run unit tests." name="test"/>
 
 
 
