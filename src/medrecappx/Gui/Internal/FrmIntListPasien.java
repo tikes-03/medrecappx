@@ -20,7 +20,6 @@ import javax.swing.table.TableColumnModel;
 import medrecappx.Dao.PasienDao;
 //import medrecappx.Gui.Dialog.FrmDlgAWTPasien;
 //import medrecappx.Gui.Dialog.FrmDlgAWTRekMedByNoRm;
-<<<<<
 import medrecappx.Gui.Dialog.FrmDlgAWTPasien;
 import medrecappx.Services.PasienService;
 import medrecappx.TabelModel.TabelModelPasien;
