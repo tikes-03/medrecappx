@@ -12,6 +12,7 @@ package medrecappx.Gui;
 
 import java.awt.Dimension;
 import medrecappx.Gui.Internal.FrmIntJaminan;
+import medrecappx.Gui.Internal.FrmIntListPasien;
 import medrecappx.Gui.Internal.FrmIntObat;
 import medrecappx.Gui.Internal.FrmIntPasienBaru;
 import medrecappx.Gui.Internal.FrmIntSpesialis;
@@ -342,6 +343,16 @@ public class FrmUtama extends javax.swing.JFrame {
 
     private void menuRekmedPasienActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuRekmedPasienActionPerformed
         // TODO add your handling code here:
+        jDesktopPane1.removeAll();
+        jDesktopPane1.repaint();
+        FrmIntListPasien fip = new FrmIntListPasien();
+        fip.setSize(jDesktopPane1.getSize());        /**************** MAXIMIZE Internal Frame *****************/
+        Dimension parentSize = jDesktopPane1.getSize();
+        Dimension childSize = fip.getSize();
+        fip.setLocation((parentSize.width - childSize.width)/2, (parentSize.height - childSize.height)/2);
+        jDesktopPane1.add(fip);
+        fip.show();
+        fip.toFront();
     }//GEN-LAST:event_menuRekmedPasienActionPerformed
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JDesktopPane jDesktopPane1;
