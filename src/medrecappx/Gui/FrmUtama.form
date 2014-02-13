@@ -61,10 +61,6 @@
             <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator2">
             </MenuItem>
             <Menu class="javax.swing.JMenu" name="jMenu1">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Data SDM"/>
-                <Property name="name" type="java.lang.String" value="menuDataSDM" noResource="true"/>
-              </Properties>
               <SubComponents>
                 <MenuItem class="javax.swing.JMenuItem" name="menuStaf">
                   <Properties>
@@ -77,7 +73,6 @@
                 </MenuItem>
                 <MenuItem class="javax.swing.JMenuItem" name="menuDokter">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Data Dokter"/>
                     <Property name="name" type="java.lang.String" value="menuDataDokter" noResource="true"/>
                   </Properties>
                   <Events>
