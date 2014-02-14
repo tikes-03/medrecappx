@@ -21,6 +21,7 @@ import medrecappx.Dao.PasienDao;
 //import medrecappx.Gui.Dialog.FrmDlgAWTPasien;
 //import medrecappx.Gui.Dialog.FrmDlgAWTRekMedByNoRm;
 import medrecappx.Gui.Dialog.FrmDlgAWTPasien;
+import medrecappx.Gui.Dialog.FrmDlgAWTRekMedByNoRm;
 import medrecappx.Services.PasienService;
 import medrecappx.TabelModel.TabelModelPasien;
 
@@ -31,7 +32,7 @@ import medrecappx.TabelModel.TabelModelPasien;
 public class FrmIntListPasien extends javax.swing.JInternalFrame {
 
     PasienService ps = new PasienService();
-    TabelModelPasien tabelModelPasien = new TabelModelPasien();    
+    TabelModelPasien tabelModelPasien = new TabelModelPasien();
     public static String judul;
     public static String ID, nama, jk, tglLahir, agama, alamat;
 
@@ -40,11 +41,11 @@ public class FrmIntListPasien extends javax.swing.JInternalFrame {
         initComponents();
         tabelPasien.setModel(tabelModelPasien);
         tabelModelPasien.setData(ps.serviceGetAllPasien());
-        if(!PasienDao.hasilGetAll.equals("ok")){
-            JOptionPane.showMessageDialog(null, PasienDao.hasilGetAll,"Get All Pasien Gagal!", JOptionPane.ERROR_MESSAGE);
+        if (!PasienDao.hasilGetAll.equals("ok")) {
+            JOptionPane.showMessageDialog(null, PasienDao.hasilGetAll, "Get All Pasien Gagal!", JOptionPane.ERROR_MESSAGE);
         }
         sesuaikan();
-        
+
         btnUbah.setEnabled(false);
         btnHapus.setEnabled(false);
         btnRekamMedis.setEnabled(false);
@@ -60,7 +61,7 @@ public class FrmIntListPasien extends javax.swing.JInternalFrame {
                     tglLahir = tabelPasien.getValueAt(row, 3).toString();
                     agama = tabelPasien.getValueAt(row, 4).toString();
                     alamat = tabelPasien.getValueAt(row, 5).toString();
-                }                
+                }
                 btnUbah.setEnabled(true);
                 btnHapus.setEnabled(true);
                 btnRekamMedis.setEnabled(true);
@@ -85,8 +86,8 @@ public class FrmIntListPasien extends javax.swing.JInternalFrame {
         }
     }
 
-    public void refresh(){
-        tabelModelPasien.setData(ps.serviceGetAllPasien());        
+    public void refresh() {
+        tabelModelPasien.setData(ps.serviceGetAllPasien());
         btnUbah.setEnabled(false);
         btnHapus.setEnabled(false);
         btnRekamMedis.setEnabled(false);
@@ -227,9 +228,8 @@ public class FrmIntListPasien extends javax.swing.JInternalFrame {
 
     private void btnRekamMedisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRekamMedisActionPerformed
         // TODO add your handling code here:
-       
-        //FrmDlgAWTRekMedByNoRm fDB = new FrmDlgAWTRekMedByNoRm(null, true);
-        //fDB.setVisible(true);
+        FrmDlgAWTRekMedByNoRm fDB = new FrmDlgAWTRekMedByNoRm(null, true);
+        fDB.setVisible(true);
     }//GEN-LAST:event_btnRekamMedisActionPerformed
 
     private void btnUbahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUbahActionPerformed
@@ -258,10 +258,10 @@ public class FrmIntListPasien extends javax.swing.JInternalFrame {
             ps.serviceDeletePasien(tabelPasien.getValueAt(row, 0).toString());
 
             if (PasienDao.hasilDelete.equals("ok")) {
-                JOptionPane.showMessageDialog(null, "Data pasien berhasil dihapus!","Delete Pasien",JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(null, "Data pasien berhasil dihapus!", "Delete Pasien", JOptionPane.INFORMATION_MESSAGE);
                 refresh();
             } else {
-                JOptionPane.showMessageDialog(null, PasienDao.hasilDelete,"Delete Pasien Gagal!",JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(null, PasienDao.hasilDelete, "Delete Pasien Gagal!", JOptionPane.ERROR_MESSAGE);
             }
 
         }
@@ -277,12 +277,11 @@ public class FrmIntListPasien extends javax.swing.JInternalFrame {
         tabelModelPasien.setData(ps.serviceGetAllPasienByNoRm(txtCari.getText()));
         if (tabelModelPasien.getRowCount() == 0) {
             tabelModelPasien.setData(ps.serviceGetAllPasienByNama(txtCari.getText()));
-        }        
+        }
         btnUbah.setEnabled(false);
         btnHapus.setEnabled(false);
         btnRekamMedis.setEnabled(false);
     }//GEN-LAST:event_txtCariKeyReleased
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnHapus;
     private javax.swing.JButton btnRefresh;
