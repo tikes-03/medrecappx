@@ -246,11 +246,11 @@ public class FrmIntPasienBaru extends javax.swing.JInternalFrame {
         if ((nama.equals("")) || (tglLahir.equals("")) || (alamat.equals(""))) {
             JOptionPane.showMessageDialog(null, "Data tidak boleh kosong!", "Insert Pasien Gagal!", JOptionPane.ERROR_MESSAGE);
             ID = "";
-            nama="";
-            jk="";
-            tglLahir="";
-            agama="";
-            alamat="";
+            nama = "";
+            jk = "";
+            tglLahir = "";
+            agama = "";
+            alamat = "";
         } else {
 
             Pasien p = new Pasien();
@@ -265,7 +265,7 @@ public class FrmIntPasienBaru extends javax.swing.JInternalFrame {
                 jk = "Perempuan";
             }
 
-           // FrmIntPasienLama fip = new FrmIntPasienLama();
+            FrmIntPasienLama fip = new FrmIntPasienLama();
             p.setNoRm(ID);
             p.setNmPas(nama);
             p.setTglLahir(tglLahir);
@@ -275,13 +275,13 @@ public class FrmIntPasienBaru extends javax.swing.JInternalFrame {
 
             if (PasienDao.hasilInsert.equals("ok")) {
                 JOptionPane.showMessageDialog(null, "Data pasien berhasil ditambah!", "Insert Pasien", JOptionPane.INFORMATION_MESSAGE);
-                //Dimension parentSize = this.getParent().getSize();
-                //Dimension childSize = fip.getSize();
-                //fip.setLocation((parentSize.width - childSize.width) / 2, (parentSize.height - childSize.height) / 2);
-                //this.getParent().add(fip);
+                Dimension parentSize = this.getParent().getSize();
+                Dimension childSize = fip.getSize();
+                fip.setLocation((parentSize.width - childSize.width) / 2, (parentSize.height - childSize.height) / 2);
+                this.getParent().add(fip);
                 this.dispose();
-                //fip.show();
-                //fip.toFront();
+                fip.show();
+                fip.toFront();
             } else {
                 JOptionPane.showMessageDialog(null, PasienDao.hasilInsert, "Insert Pasien Gagal!", JOptionPane.ERROR_MESSAGE);
                 ID = "";

@@ -12,7 +12,7 @@ import medrecappx.Entity.Tindakan;
 
 /**
  *
- * @author Hady
+ * @author Hernawati
  */
 public interface TindakanInterface {
 
