@@ -16,6 +16,7 @@ import medrecappx.Gui.Internal.FrmIntJaminan;
 import medrecappx.Gui.Internal.FrmIntListPasien;
 import medrecappx.Gui.Internal.FrmIntObat;
 import medrecappx.Gui.Internal.FrmIntPasienBaru;
+import medrecappx.Gui.Internal.FrmIntPerawat;
 import medrecappx.Gui.Internal.FrmIntSpesialis;
 import medrecappx.Gui.Internal.FrmIntStaf;
 
@@ -332,6 +333,15 @@ public class FrmUtama extends javax.swing.JFrame {
 
     private void menuPerawatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuPerawatActionPerformed
         // TODO add your handling code here:
+        jDesktopPane1.removeAll();
+        jDesktopPane1.repaint();
+        FrmIntPerawat fis = new FrmIntPerawat();
+        Dimension parentSize = jDesktopPane1.getSize();
+        Dimension childSize = fis.getSize();
+        fis.setLocation((parentSize.width - childSize.width) / 2, (parentSize.height - childSize.height) / 2);
+        jDesktopPane1.add(fis);
+        fis.show();
+        fis.toFront();
     }//GEN-LAST:event_menuPerawatActionPerformed
 
     private void menuStafActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuStafActionPerformed
