@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<<<<<<< HEAD
-<testsuite errors="0" failures="0" hostname="asus-PC" name="medrecappx.Service.J_PasienGuiServiceTest" skipped="0" tests="5" time="27.521" timestamp="2014-02-14T18:59:28">
-=======
-<<<<<<< HEAD
-<testsuite errors="3" failures="0" hostname="Samsung" name="medrecappx.Service.J_PasienGuiServiceTest" skipped="0" tests="5" time="14.743" timestamp="2014-02-15T07:37:50">
-=======
-<testsuite errors="0" failures="0" hostname="asus-PC" name="medrecappx.Service.J_PasienGuiServiceTest" skipped="0" tests="5" time="31.356" timestamp="2014-02-14T03:41:57">
->>>>>>> 1c993c5ba63909cb58a60c4c49d2c75eccb76a9d
->>>>>>> ef3453967d981001e5f3aecfac70cad58ba71aa5
+<testsuite errors="0" failures="0" hostname="asus-PC" name="medrecappx.Service.J_PasienGuiServiceTest" skipped="0" tests="5" time="28.692" timestamp="2014-02-14T19:12:12">
   <properties>
     <property name="default.javac.source" value="1.7" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -87,17 +79,8 @@
     <property name="ant.project.default-target" value="default" />
     <property name="libs.hibernate-persistence.javadoc" value="" />
     <property name="libs.ejb3-persistence.classpath" value="C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\ejb3-persistence.jar" />
-<<<<<<< HEAD
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.J_PasienGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\test\results\TEST-medrecappx.Service.J_PasienGuiServiceTest.xml crashfile=C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\junitvmwatcher2229391699126291948.properties propsfile=C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\junit1125310214057747481.properties" />
-=======
-<<<<<<< HEAD
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.J_PasienGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\TA\ci\git\medrecappx\build\test\results\TEST-medrecappx.Service.J_PasienGuiServiceTest.xml crashfile=F:\TA\ci\git\medrecappx\build\junitvmwatcher6624367913486272968.properties propsfile=F:\TA\ci\git\medrecappx\build\junit3993330261654113919.properties" />
-    <property name="built-jar.properties" value="F:\TA\ci\git\medrecappx\build\built-jar.properties" />
-=======
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.J_PasienGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\test\results\TEST-medrecappx.Service.J_PasienGuiServiceTest.xml crashfile=C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\junitvmwatcher5055334627035471444.properties propsfile=C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\junit8572532897129308952.properties" />
->>>>>>> ef3453967d981001e5f3aecfac70cad58ba71aa5
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.J_PasienGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\test\results\TEST-medrecappx.Service.J_PasienGuiServiceTest.xml crashfile=C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\junitvmwatcher2631488461302269292.properties propsfile=C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\junit6469717852253030645.properties" />
     <property name="built-jar.properties" value="C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\built-jar.properties" />
->>>>>>> 1c993c5ba63909cb58a60c4c49d2c75eccb76a9d
     <property name="libs.junit.src" value="" />
     <property name="ant.file" value="C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build.xml" />
     <property name="file.reference.fest-assert-1.2.jar" value="lib\fest-swing-1.2\fest-assert-1.2.jar" />
@@ -290,209 +273,11 @@
     <property name="sun.arch.data.model" value="64" />
     <property name="" value="======" />
   </properties>
-<<<<<<< HEAD
-  <testcase classname="medrecappx.Service.J_PasienGuiServiceTest" name="a_insertDataPasienKosong" time="6.785" />
-  <testcase classname="medrecappx.Service.J_PasienGuiServiceTest" name="b_insertDataPasien" time="1.858" />
-  <testcase classname="medrecappx.Service.J_PasienGuiServiceTest" name="c_updateDataPasienKosong" time="12.529" />
-  <testcase classname="medrecappx.Service.J_PasienGuiServiceTest" name="d_updateDataPasien" time="1.618" />
-  <testcase classname="medrecappx.Service.J_PasienGuiServiceTest" name="e_deleteDataPasien" time="1.323" />
-=======
-<<<<<<< HEAD
-  <testcase classname="medrecappx.Service.J_PasienGuiServiceTest" name="a_insertDataPasienKosong" time="6.811" />
-  <testcase classname="medrecappx.Service.J_PasienGuiServiceTest" name="b_insertDataPasien" time="1.954" />
-  <testcase classname="medrecappx.Service.J_PasienGuiServiceTest" name="c_updateDataPasienKosong" time="1.489">
-    <error message="Unable to find component using matcher org.fest.swing.core.NameMatcher[name=&apos;txtCari&apos;, type=javax.swing.text.JTextComponent, requireShowing=true].&#xd;&#xa;&#xd;&#xa;Component hierarchy:&#xd;&#xa;medrecappx.Gui.FrmUtama[name=&apos;frame0&apos;, title=&apos;&apos;, enabled=true, visible=true, showing=true]&#xd;&#xa;  javax.swing.JRootPane[]&#xd;&#xa;    javax.swing.JPanel[name=&apos;null.glassPane&apos;]&#xd;&#xa;    javax.swing.JLayeredPane[]&#xd;&#xa;      javax.swing.JPanel[name=&apos;null.contentPane&apos;]&#xd;&#xa;        javax.swing.JDesktopPane[]&#xd;&#xa;      javax.swing.JMenuBar[]&#xd;&#xa;        javax.swing.JMenu[name=null, text=&apos;File&apos;, selected=false, enabled=true, visible=true, showing=true]&#xd;&#xa;          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=null, text=&apos;Exit&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;        javax.swing.JMenu[name=&apos;menuDataMaster&apos;, text=&apos;Master&apos;, selected=false, enabled=true, visible=true, showing=true]&#xd;&#xa;          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=&apos;menuDataSpesialis&apos;, text=&apos;Data Spesialis&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=&apos;menuDataJaminan&apos;, text=&apos;Data Jaminan&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=&apos;menuDataObat&apos;, text=&apos;Data Obat&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=&apos;menuDataTindakan&apos;, text=&apos;Data Tindakan&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JPopupMenu$Separator[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@235ed5,flags=0,maximumSize=,minimumSize=,preferredSize=,orientation=HORIZONTAL]&#xd;&#xa;            javax.swing.JMenu[name=&apos;menuDataSDM&apos;, text=&apos;Data SDM&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;              javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;                javax.swing.JMenuItem[name=&apos;menuDataStaf&apos;, text=&apos;Data Staf&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;                javax.swing.JMenuItem[name=&apos;menuDataDokter&apos;, text=&apos;Data Dokter&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;                javax.swing.JMenuItem[name=&apos;menuDataPerawat&apos;, text=&apos;Data Perawat&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;        javax.swing.JMenu[name=null, text=&apos;Front Office&apos;, selected=false, enabled=true, visible=true, showing=true]&#xd;&#xa;          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;            javax.swing.JMenu[name=null, text=&apos;Out Patient&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;              javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;                javax.swing.JMenuItem[name=&apos;menuDataPasienBaru&apos;, text=&apos;Pasien Baru&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;                javax.swing.JMenuItem[name=null, text=&apos;Pasien Lama&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;        javax.swing.JMenu[name=null, text=&apos;Poliklinik&apos;, selected=false, enabled=true, visible=true, showing=true]&#xd;&#xa;          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=&apos;menuPoliPenyakitDalam&apos;, text=&apos;Poliklinik Penyakit Dalam&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=null, text=&apos;Poliklinik Penyakit Jantung&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=null, text=&apos;Poliklinik Penyakit Paru-paru&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=null, text=&apos;Poliklinik Spesialis Bedah&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;        javax.swing.JMenu[name=null, text=&apos;Rekam Medis&apos;, selected=false, enabled=true, visible=true, showing=true]&#xd;&#xa;          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=&apos;menuRekamMedisPasien&apos;, text=&apos;Rekam Medis Pasien&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;" type="org.fest.swing.exception.ComponentLookupException">org.fest.swing.exception.ComponentLookupException: Unable to find component using matcher org.fest.swing.core.NameMatcher[name=&apos;txtCari&apos;, type=javax.swing.text.JTextComponent, requireShowing=true].
-
-Component hierarchy:
-medrecappx.Gui.FrmUtama[name=&apos;frame0&apos;, title=&apos;&apos;, enabled=true, visible=true, showing=true]
-  javax.swing.JRootPane[]
-    javax.swing.JPanel[name=&apos;null.glassPane&apos;]
-    javax.swing.JLayeredPane[]
-      javax.swing.JPanel[name=&apos;null.contentPane&apos;]
-        javax.swing.JDesktopPane[]
-      javax.swing.JMenuBar[]
-        javax.swing.JMenu[name=null, text=&apos;File&apos;, selected=false, enabled=true, visible=true, showing=true]
-          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-            javax.swing.JMenuItem[name=null, text=&apos;Exit&apos;, selected=false, enabled=true, visible=true, showing=false]
-        javax.swing.JMenu[name=&apos;menuDataMaster&apos;, text=&apos;Master&apos;, selected=false, enabled=true, visible=true, showing=true]
-          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-            javax.swing.JMenuItem[name=&apos;menuDataSpesialis&apos;, text=&apos;Data Spesialis&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JMenuItem[name=&apos;menuDataJaminan&apos;, text=&apos;Data Jaminan&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JMenuItem[name=&apos;menuDataObat&apos;, text=&apos;Data Obat&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JMenuItem[name=&apos;menuDataTindakan&apos;, text=&apos;Data Tindakan&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JPopupMenu$Separator[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@235ed5,flags=0,maximumSize=,minimumSize=,preferredSize=,orientation=HORIZONTAL]
-            javax.swing.JMenu[name=&apos;menuDataSDM&apos;, text=&apos;Data SDM&apos;, selected=false, enabled=true, visible=true, showing=false]
-              javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-                javax.swing.JMenuItem[name=&apos;menuDataStaf&apos;, text=&apos;Data Staf&apos;, selected=false, enabled=true, visible=true, showing=false]
-                javax.swing.JMenuItem[name=&apos;menuDataDokter&apos;, text=&apos;Data Dokter&apos;, selected=false, enabled=true, visible=true, showing=false]
-                javax.swing.JMenuItem[name=&apos;menuDataPerawat&apos;, text=&apos;Data Perawat&apos;, selected=false, enabled=true, visible=true, showing=false]
-        javax.swing.JMenu[name=null, text=&apos;Front Office&apos;, selected=false, enabled=true, visible=true, showing=true]
-          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-            javax.swing.JMenu[name=null, text=&apos;Out Patient&apos;, selected=false, enabled=true, visible=true, showing=false]
-              javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-                javax.swing.JMenuItem[name=&apos;menuDataPasienBaru&apos;, text=&apos;Pasien Baru&apos;, selected=false, enabled=true, visible=true, showing=false]
-                javax.swing.JMenuItem[name=null, text=&apos;Pasien Lama&apos;, selected=false, enabled=true, visible=true, showing=false]
-        javax.swing.JMenu[name=null, text=&apos;Poliklinik&apos;, selected=false, enabled=true, visible=true, showing=true]
-          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-            javax.swing.JMenuItem[name=&apos;menuPoliPenyakitDalam&apos;, text=&apos;Poliklinik Penyakit Dalam&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JMenuItem[name=null, text=&apos;Poliklinik Penyakit Jantung&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JMenuItem[name=null, text=&apos;Poliklinik Penyakit Paru-paru&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JMenuItem[name=null, text=&apos;Poliklinik Spesialis Bedah&apos;, selected=false, enabled=true, visible=true, showing=false]
-        javax.swing.JMenu[name=null, text=&apos;Rekam Medis&apos;, selected=false, enabled=true, visible=true, showing=true]
-          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-            javax.swing.JMenuItem[name=&apos;menuRekamMedisPasien&apos;, text=&apos;Rekam Medis Pasien&apos;, selected=false, enabled=true, visible=true, showing=false]
-
-	at org.fest.swing.core.BasicComponentFinder.componentNotFound(BasicComponentFinder.java:271)
-	at org.fest.swing.core.BasicComponentFinder.find(BasicComponentFinder.java:260)
-	at org.fest.swing.core.BasicComponentFinder.find(BasicComponentFinder.java:254)
-	at org.fest.swing.core.BasicComponentFinder.findByName(BasicComponentFinder.java:191)
-	at org.fest.swing.fixture.ContainerFixture.findByName(ContainerFixture.java:527)
-	at org.fest.swing.fixture.ContainerFixture.textBox(ContainerFixture.java:457)
-	at medrecappx.Service.J_PasienGuiServiceTest.c_updateDataPasienKosong(J_PasienGuiServiceTest.java:114)
-</error>
-  </testcase>
-  <testcase classname="medrecappx.Service.J_PasienGuiServiceTest" name="d_updateDataPasien" time="0.142">
-    <error message="Timed out waiting for dialog to be found using matcher org.fest.swing.core.NameMatcher[name=&apos;frmDlgAWTPasien&apos;, type=java.awt.Dialog, requireShowing=true]&#xd;&#xa;Unable to find component using matcher org.fest.swing.core.NameMatcher[name=&apos;frmDlgAWTPasien&apos;, type=java.awt.Dialog, requireShowing=true].&#xd;&#xa;&#xd;&#xa;Component hierarchy:&#xd;&#xa;medrecappx.Gui.FrmUtama[name=&apos;frame0&apos;, title=&apos;&apos;, enabled=true, visible=true, showing=true]&#xd;&#xa;  javax.swing.JRootPane[]&#xd;&#xa;    javax.swing.JPanel[name=&apos;null.glassPane&apos;]&#xd;&#xa;    javax.swing.JLayeredPane[]&#xd;&#xa;      javax.swing.JPanel[name=&apos;null.contentPane&apos;]&#xd;&#xa;        javax.swing.JDesktopPane[]&#xd;&#xa;      javax.swing.JMenuBar[]&#xd;&#xa;        javax.swing.JMenu[name=null, text=&apos;File&apos;, selected=false, enabled=true, visible=true, showing=true]&#xd;&#xa;          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=null, text=&apos;Exit&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;        javax.swing.JMenu[name=&apos;menuDataMaster&apos;, text=&apos;Master&apos;, selected=false, enabled=true, visible=true, showing=true]&#xd;&#xa;          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=&apos;menuDataSpesialis&apos;, text=&apos;Data Spesialis&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=&apos;menuDataJaminan&apos;, text=&apos;Data Jaminan&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=&apos;menuDataObat&apos;, text=&apos;Data Obat&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=&apos;menuDataTindakan&apos;, text=&apos;Data Tindakan&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JPopupMenu$Separator[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@235ed5,flags=0,maximumSize=,minimumSize=,preferredSize=,orientation=HORIZONTAL]&#xd;&#xa;            javax.swing.JMenu[name=&apos;menuDataSDM&apos;, text=&apos;Data SDM&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;              javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;                javax.swing.JMenuItem[name=&apos;menuDataStaf&apos;, text=&apos;Data Staf&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;                javax.swing.JMenuItem[name=&apos;menuDataDokter&apos;, text=&apos;Data Dokter&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;                javax.swing.JMenuItem[name=&apos;menuDataPerawat&apos;, text=&apos;Data Perawat&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;        javax.swing.JMenu[name=null, text=&apos;Front Office&apos;, selected=false, enabled=true, visible=true, showing=true]&#xd;&#xa;          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;            javax.swing.JMenu[name=null, text=&apos;Out Patient&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;              javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;                javax.swing.JMenuItem[name=&apos;menuDataPasienBaru&apos;, text=&apos;Pasien Baru&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;                javax.swing.JMenuItem[name=null, text=&apos;Pasien Lama&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;        javax.swing.JMenu[name=null, text=&apos;Poliklinik&apos;, selected=false, enabled=true, visible=true, showing=true]&#xd;&#xa;          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=&apos;menuPoliPenyakitDalam&apos;, text=&apos;Poliklinik Penyakit Dalam&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=null, text=&apos;Poliklinik Penyakit Jantung&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=null, text=&apos;Poliklinik Penyakit Paru-paru&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=null, text=&apos;Poliklinik Spesialis Bedah&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;        javax.swing.JMenu[name=null, text=&apos;Rekam Medis&apos;, selected=false, enabled=true, visible=true, showing=true]&#xd;&#xa;          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=&apos;menuRekamMedisPasien&apos;, text=&apos;Rekam Medis Pasien&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;javax.swing.SwingUtilities$SharedOwnerFrame[name=&apos;frame1&apos;, title=&apos;&apos;, enabled=true, visible=false, showing=false]&#xd;&#xa;  javax.swing.JDialog[name=&apos;dialog0&apos;, title=&apos;Insert Pasien Gagal!&apos;, enabled=true, modal=true, visible=false, showing=false]&#xd;&#xa;    javax.swing.JRootPane[]&#xd;&#xa;      javax.swing.JPanel[name=&apos;null.glassPane&apos;]&#xd;&#xa;      javax.swing.JLayeredPane[]&#xd;&#xa;        javax.swing.JPanel[name=&apos;null.contentPane&apos;]&#xd;&#xa;  javax.swing.JDialog[name=&apos;dialog1&apos;, title=&apos;Insert Pasien Gagal!&apos;, enabled=true, modal=true, visible=false, showing=false]&#xd;&#xa;    javax.swing.JRootPane[]&#xd;&#xa;      javax.swing.JPanel[name=&apos;null.glassPane&apos;]&#xd;&#xa;      javax.swing.JLayeredPane[]&#xd;&#xa;        javax.swing.JPanel[name=&apos;null.contentPane&apos;]&#xd;&#xa;  javax.swing.JDialog[name=&apos;dialog2&apos;, title=&apos;Insert Pasien Gagal!&apos;, enabled=true, modal=true, visible=false, showing=false]&#xd;&#xa;    javax.swing.JRootPane[]&#xd;&#xa;      javax.swing.JPanel[name=&apos;null.glassPane&apos;]&#xd;&#xa;      javax.swing.JLayeredPane[]&#xd;&#xa;        javax.swing.JPanel[name=&apos;null.contentPane&apos;]&#xd;&#xa;  javax.swing.JDialog[name=&apos;dialog3&apos;, title=&apos;Insert Pasien Gagal!&apos;, enabled=true, modal=true, visible=false, showing=false]&#xd;&#xa;    javax.swing.JRootPane[]&#xd;&#xa;      javax.swing.JPanel[name=&apos;null.glassPane&apos;]&#xd;&#xa;      javax.swing.JLayeredPane[]&#xd;&#xa;        javax.swing.JPanel[name=&apos;null.contentPane&apos;]&#xd;&#xa;  javax.swing.JDialog[name=&apos;dialog4&apos;, title=&apos;Insert Pasien Gagal!&apos;, enabled=true, modal=true, visible=false, showing=false]&#xd;&#xa;    javax.swing.JRootPane[]&#xd;&#xa;      javax.swing.JPanel[name=&apos;null.glassPane&apos;]&#xd;&#xa;      javax.swing.JLayeredPane[]&#xd;&#xa;        javax.swing.JPanel[name=&apos;null.contentPane&apos;]&#xd;&#xa;  javax.swing.JDialog[name=&apos;dialog5&apos;, title=&apos;Insert Pasien&apos;, enabled=true, modal=true, visible=false, showing=false]&#xd;&#xa;    javax.swing.JRootPane[]&#xd;&#xa;      javax.swing.JPanel[name=&apos;null.glassPane&apos;]&#xd;&#xa;      javax.swing.JLayeredPane[]&#xd;&#xa;        javax.swing.JPanel[name=&apos;null.contentPane&apos;]&#xd;&#xa;" type="org.fest.swing.exception.WaitTimedOutError">org.fest.swing.exception.WaitTimedOutError: Timed out waiting for dialog to be found using matcher org.fest.swing.core.NameMatcher[name=&apos;frmDlgAWTPasien&apos;, type=java.awt.Dialog, requireShowing=true]
-Unable to find component using matcher org.fest.swing.core.NameMatcher[name=&apos;frmDlgAWTPasien&apos;, type=java.awt.Dialog, requireShowing=true].
-
-Component hierarchy:
-medrecappx.Gui.FrmUtama[name=&apos;frame0&apos;, title=&apos;&apos;, enabled=true, visible=true, showing=true]
-  javax.swing.JRootPane[]
-    javax.swing.JPanel[name=&apos;null.glassPane&apos;]
-    javax.swing.JLayeredPane[]
-      javax.swing.JPanel[name=&apos;null.contentPane&apos;]
-        javax.swing.JDesktopPane[]
-      javax.swing.JMenuBar[]
-        javax.swing.JMenu[name=null, text=&apos;File&apos;, selected=false, enabled=true, visible=true, showing=true]
-          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-            javax.swing.JMenuItem[name=null, text=&apos;Exit&apos;, selected=false, enabled=true, visible=true, showing=false]
-        javax.swing.JMenu[name=&apos;menuDataMaster&apos;, text=&apos;Master&apos;, selected=false, enabled=true, visible=true, showing=true]
-          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-            javax.swing.JMenuItem[name=&apos;menuDataSpesialis&apos;, text=&apos;Data Spesialis&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JMenuItem[name=&apos;menuDataJaminan&apos;, text=&apos;Data Jaminan&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JMenuItem[name=&apos;menuDataObat&apos;, text=&apos;Data Obat&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JMenuItem[name=&apos;menuDataTindakan&apos;, text=&apos;Data Tindakan&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JPopupMenu$Separator[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@235ed5,flags=0,maximumSize=,minimumSize=,preferredSize=,orientation=HORIZONTAL]
-            javax.swing.JMenu[name=&apos;menuDataSDM&apos;, text=&apos;Data SDM&apos;, selected=false, enabled=true, visible=true, showing=false]
-              javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-                javax.swing.JMenuItem[name=&apos;menuDataStaf&apos;, text=&apos;Data Staf&apos;, selected=false, enabled=true, visible=true, showing=false]
-                javax.swing.JMenuItem[name=&apos;menuDataDokter&apos;, text=&apos;Data Dokter&apos;, selected=false, enabled=true, visible=true, showing=false]
-                javax.swing.JMenuItem[name=&apos;menuDataPerawat&apos;, text=&apos;Data Perawat&apos;, selected=false, enabled=true, visible=true, showing=false]
-        javax.swing.JMenu[name=null, text=&apos;Front Office&apos;, selected=false, enabled=true, visible=true, showing=true]
-          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-            javax.swing.JMenu[name=null, text=&apos;Out Patient&apos;, selected=false, enabled=true, visible=true, showing=false]
-              javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-                javax.swing.JMenuItem[name=&apos;menuDataPasienBaru&apos;, text=&apos;Pasien Baru&apos;, selected=false, enabled=true, visible=true, showing=false]
-                javax.swing.JMenuItem[name=null, text=&apos;Pasien Lama&apos;, selected=false, enabled=true, visible=true, showing=false]
-        javax.swing.JMenu[name=null, text=&apos;Poliklinik&apos;, selected=false, enabled=true, visible=true, showing=true]
-          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-            javax.swing.JMenuItem[name=&apos;menuPoliPenyakitDalam&apos;, text=&apos;Poliklinik Penyakit Dalam&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JMenuItem[name=null, text=&apos;Poliklinik Penyakit Jantung&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JMenuItem[name=null, text=&apos;Poliklinik Penyakit Paru-paru&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JMenuItem[name=null, text=&apos;Poliklinik Spesialis Bedah&apos;, selected=false, enabled=true, visible=true, showing=false]
-        javax.swing.JMenu[name=null, text=&apos;Rekam Medis&apos;, selected=false, enabled=true, visible=true, showing=true]
-          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-            javax.swing.JMenuItem[name=&apos;menuRekamMedisPasien&apos;, text=&apos;Rekam Medis Pasien&apos;, selected=false, enabled=true, visible=true, showing=false]
-javax.swing.SwingUtilities$SharedOwnerFrame[name=&apos;frame1&apos;, title=&apos;&apos;, enabled=true, visible=false, showing=false]
-  javax.swing.JDialog[name=&apos;dialog0&apos;, title=&apos;Insert Pasien Gagal!&apos;, enabled=true, modal=true, visible=false, showing=false]
-    javax.swing.JRootPane[]
-      javax.swing.JPanel[name=&apos;null.glassPane&apos;]
-      javax.swing.JLayeredPane[]
-        javax.swing.JPanel[name=&apos;null.contentPane&apos;]
-  javax.swing.JDialog[name=&apos;dialog1&apos;, title=&apos;Insert Pasien Gagal!&apos;, enabled=true, modal=true, visible=false, showing=false]
-    javax.swing.JRootPane[]
-      javax.swing.JPanel[name=&apos;null.glassPane&apos;]
-      javax.swing.JLayeredPane[]
-        javax.swing.JPanel[name=&apos;null.contentPane&apos;]
-  javax.swing.JDialog[name=&apos;dialog2&apos;, title=&apos;Insert Pasien Gagal!&apos;, enabled=true, modal=true, visible=false, showing=false]
-    javax.swing.JRootPane[]
-      javax.swing.JPanel[name=&apos;null.glassPane&apos;]
-      javax.swing.JLayeredPane[]
-        javax.swing.JPanel[name=&apos;null.contentPane&apos;]
-  javax.swing.JDialog[name=&apos;dialog3&apos;, title=&apos;Insert Pasien Gagal!&apos;, enabled=true, modal=true, visible=false, showing=false]
-    javax.swing.JRootPane[]
-      javax.swing.JPanel[name=&apos;null.glassPane&apos;]
-      javax.swing.JLayeredPane[]
-        javax.swing.JPanel[name=&apos;null.contentPane&apos;]
-  javax.swing.JDialog[name=&apos;dialog4&apos;, title=&apos;Insert Pasien Gagal!&apos;, enabled=true, modal=true, visible=false, showing=false]
-    javax.swing.JRootPane[]
-      javax.swing.JPanel[name=&apos;null.glassPane&apos;]
-      javax.swing.JLayeredPane[]
-        javax.swing.JPanel[name=&apos;null.contentPane&apos;]
-  javax.swing.JDialog[name=&apos;dialog5&apos;, title=&apos;Insert Pasien&apos;, enabled=true, modal=true, visible=false, showing=false]
-    javax.swing.JRootPane[]
-      javax.swing.JPanel[name=&apos;null.glassPane&apos;]
-      javax.swing.JLayeredPane[]
-        javax.swing.JPanel[name=&apos;null.contentPane&apos;]
-
-	at org.fest.swing.timing.Pause.timeoutExpired(Pause.java:83)
-	at org.fest.swing.timing.Pause.pause(Pause.java:75)
-	at org.fest.swing.timing.Pause.pause(Pause.java:59)
-	at org.fest.swing.fixture.ContainerFixture.findDialog(ContainerFixture.java:192)
-	at org.fest.swing.fixture.ContainerFixture.dialog(ContainerFixture.java:186)
-	at org.fest.swing.fixture.ContainerFixture.dialog(ContainerFixture.java:180)
-	at medrecappx.Service.J_PasienGuiServiceTest.d_updateDataPasien(J_PasienGuiServiceTest.java:153)
-</error>
-  </testcase>
-  <testcase classname="medrecappx.Service.J_PasienGuiServiceTest" name="e_deleteDataPasien" time="0.02">
-    <error message="Unable to find component using matcher org.fest.swing.core.NameMatcher[name=&apos;tabelPasien&apos;, type=javax.swing.JTable, requireShowing=true].&#xd;&#xa;&#xd;&#xa;Component hierarchy:&#xd;&#xa;medrecappx.Gui.FrmUtama[name=&apos;frame0&apos;, title=&apos;&apos;, enabled=true, visible=true, showing=true]&#xd;&#xa;  javax.swing.JRootPane[]&#xd;&#xa;    javax.swing.JPanel[name=&apos;null.glassPane&apos;]&#xd;&#xa;    javax.swing.JLayeredPane[]&#xd;&#xa;      javax.swing.JPanel[name=&apos;null.contentPane&apos;]&#xd;&#xa;        javax.swing.JDesktopPane[]&#xd;&#xa;      javax.swing.JMenuBar[]&#xd;&#xa;        javax.swing.JMenu[name=null, text=&apos;File&apos;, selected=false, enabled=true, visible=true, showing=true]&#xd;&#xa;          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=null, text=&apos;Exit&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;        javax.swing.JMenu[name=&apos;menuDataMaster&apos;, text=&apos;Master&apos;, selected=false, enabled=true, visible=true, showing=true]&#xd;&#xa;          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=&apos;menuDataSpesialis&apos;, text=&apos;Data Spesialis&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=&apos;menuDataJaminan&apos;, text=&apos;Data Jaminan&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=&apos;menuDataObat&apos;, text=&apos;Data Obat&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=&apos;menuDataTindakan&apos;, text=&apos;Data Tindakan&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JPopupMenu$Separator[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@235ed5,flags=0,maximumSize=,minimumSize=,preferredSize=,orientation=HORIZONTAL]&#xd;&#xa;            javax.swing.JMenu[name=&apos;menuDataSDM&apos;, text=&apos;Data SDM&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;              javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;                javax.swing.JMenuItem[name=&apos;menuDataStaf&apos;, text=&apos;Data Staf&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;                javax.swing.JMenuItem[name=&apos;menuDataDokter&apos;, text=&apos;Data Dokter&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;                javax.swing.JMenuItem[name=&apos;menuDataPerawat&apos;, text=&apos;Data Perawat&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;        javax.swing.JMenu[name=null, text=&apos;Front Office&apos;, selected=false, enabled=true, visible=true, showing=true]&#xd;&#xa;          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;            javax.swing.JMenu[name=null, text=&apos;Out Patient&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;              javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;                javax.swing.JMenuItem[name=&apos;menuDataPasienBaru&apos;, text=&apos;Pasien Baru&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;                javax.swing.JMenuItem[name=null, text=&apos;Pasien Lama&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;        javax.swing.JMenu[name=null, text=&apos;Poliklinik&apos;, selected=false, enabled=true, visible=true, showing=true]&#xd;&#xa;          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=&apos;menuPoliPenyakitDalam&apos;, text=&apos;Poliklinik Penyakit Dalam&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=null, text=&apos;Poliklinik Penyakit Jantung&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=null, text=&apos;Poliklinik Penyakit Paru-paru&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=null, text=&apos;Poliklinik Spesialis Bedah&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;        javax.swing.JMenu[name=null, text=&apos;Rekam Medis&apos;, selected=false, enabled=true, visible=true, showing=true]&#xd;&#xa;          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]&#xd;&#xa;            javax.swing.JMenuItem[name=&apos;menuRekamMedisPasien&apos;, text=&apos;Rekam Medis Pasien&apos;, selected=false, enabled=true, visible=true, showing=false]&#xd;&#xa;" type="org.fest.swing.exception.ComponentLookupException">org.fest.swing.exception.ComponentLookupException: Unable to find component using matcher org.fest.swing.core.NameMatcher[name=&apos;tabelPasien&apos;, type=javax.swing.JTable, requireShowing=true].
-
-Component hierarchy:
-medrecappx.Gui.FrmUtama[name=&apos;frame0&apos;, title=&apos;&apos;, enabled=true, visible=true, showing=true]
-  javax.swing.JRootPane[]
-    javax.swing.JPanel[name=&apos;null.glassPane&apos;]
-    javax.swing.JLayeredPane[]
-      javax.swing.JPanel[name=&apos;null.contentPane&apos;]
-        javax.swing.JDesktopPane[]
-      javax.swing.JMenuBar[]
-        javax.swing.JMenu[name=null, text=&apos;File&apos;, selected=false, enabled=true, visible=true, showing=true]
-          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-            javax.swing.JMenuItem[name=null, text=&apos;Exit&apos;, selected=false, enabled=true, visible=true, showing=false]
-        javax.swing.JMenu[name=&apos;menuDataMaster&apos;, text=&apos;Master&apos;, selected=false, enabled=true, visible=true, showing=true]
-          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-            javax.swing.JMenuItem[name=&apos;menuDataSpesialis&apos;, text=&apos;Data Spesialis&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JMenuItem[name=&apos;menuDataJaminan&apos;, text=&apos;Data Jaminan&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JMenuItem[name=&apos;menuDataObat&apos;, text=&apos;Data Obat&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JMenuItem[name=&apos;menuDataTindakan&apos;, text=&apos;Data Tindakan&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JPopupMenu$Separator[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@235ed5,flags=0,maximumSize=,minimumSize=,preferredSize=,orientation=HORIZONTAL]
-            javax.swing.JMenu[name=&apos;menuDataSDM&apos;, text=&apos;Data SDM&apos;, selected=false, enabled=true, visible=true, showing=false]
-              javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-                javax.swing.JMenuItem[name=&apos;menuDataStaf&apos;, text=&apos;Data Staf&apos;, selected=false, enabled=true, visible=true, showing=false]
-                javax.swing.JMenuItem[name=&apos;menuDataDokter&apos;, text=&apos;Data Dokter&apos;, selected=false, enabled=true, visible=true, showing=false]
-                javax.swing.JMenuItem[name=&apos;menuDataPerawat&apos;, text=&apos;Data Perawat&apos;, selected=false, enabled=true, visible=true, showing=false]
-        javax.swing.JMenu[name=null, text=&apos;Front Office&apos;, selected=false, enabled=true, visible=true, showing=true]
-          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-            javax.swing.JMenu[name=null, text=&apos;Out Patient&apos;, selected=false, enabled=true, visible=true, showing=false]
-              javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-                javax.swing.JMenuItem[name=&apos;menuDataPasienBaru&apos;, text=&apos;Pasien Baru&apos;, selected=false, enabled=true, visible=true, showing=false]
-                javax.swing.JMenuItem[name=null, text=&apos;Pasien Lama&apos;, selected=false, enabled=true, visible=true, showing=false]
-        javax.swing.JMenu[name=null, text=&apos;Poliklinik&apos;, selected=false, enabled=true, visible=true, showing=true]
-          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-            javax.swing.JMenuItem[name=&apos;menuPoliPenyakitDalam&apos;, text=&apos;Poliklinik Penyakit Dalam&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JMenuItem[name=null, text=&apos;Poliklinik Penyakit Jantung&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JMenuItem[name=null, text=&apos;Poliklinik Penyakit Paru-paru&apos;, selected=false, enabled=true, visible=true, showing=false]
-            javax.swing.JMenuItem[name=null, text=&apos;Poliklinik Spesialis Bedah&apos;, selected=false, enabled=true, visible=true, showing=false]
-        javax.swing.JMenu[name=null, text=&apos;Rekam Medis&apos;, selected=false, enabled=true, visible=true, showing=true]
-          javax.swing.JPopupMenu[name=null, label=null, enabled=true, visible=false, showing=false]
-            javax.swing.JMenuItem[name=&apos;menuRekamMedisPasien&apos;, text=&apos;Rekam Medis Pasien&apos;, selected=false, enabled=true, visible=true, showing=false]
-
-	at org.fest.swing.core.BasicComponentFinder.componentNotFound(BasicComponentFinder.java:271)
-	at org.fest.swing.core.BasicComponentFinder.find(BasicComponentFinder.java:260)
-	at org.fest.swing.core.BasicComponentFinder.find(BasicComponentFinder.java:254)
-	at org.fest.swing.core.BasicComponentFinder.findByName(BasicComponentFinder.java:191)
-	at org.fest.swing.fixture.ContainerFixture.findByName(ContainerFixture.java:527)
-	at org.fest.swing.fixture.ContainerFixture.table(ContainerFixture.java:442)
-	at medrecappx.Service.J_PasienGuiServiceTest.e_deleteDataPasien(J_PasienGuiServiceTest.java:163)
-</error>
-  </testcase>
-=======
-  <testcase classname="medrecappx.Service.J_PasienGuiServiceTest" name="a_insertDataPasienKosong" time="7.613" />
-  <testcase classname="medrecappx.Service.J_PasienGuiServiceTest" name="b_insertDataPasien" time="2.122" />
-  <testcase classname="medrecappx.Service.J_PasienGuiServiceTest" name="c_updateDataPasienKosong" time="14.055" />
-  <testcase classname="medrecappx.Service.J_PasienGuiServiceTest" name="d_updateDataPasien" time="1.747" />
-  <testcase classname="medrecappx.Service.J_PasienGuiServiceTest" name="e_deleteDataPasien" time="1.233" />
->>>>>>> 1c993c5ba63909cb58a60c4c49d2c75eccb76a9d
->>>>>>> ef3453967d981001e5f3aecfac70cad58ba71aa5
+  <testcase classname="medrecappx.Service.J_PasienGuiServiceTest" name="a_insertDataPasienKosong" time="7.248" />
+  <testcase classname="medrecappx.Service.J_PasienGuiServiceTest" name="b_insertDataPasien" time="1.998" />
+  <testcase classname="medrecappx.Service.J_PasienGuiServiceTest" name="c_updateDataPasienKosong" time="13.117" />
+  <testcase classname="medrecappx.Service.J_PasienGuiServiceTest" name="d_updateDataPasien" time="1.455" />
+  <testcase classname="medrecappx.Service.J_PasienGuiServiceTest" name="e_deleteDataPasien" time="1.049" />
   <system-out><![CDATA[1. InsertDataPasienKosong
 2. InsertDataPasien
 3. UpdateDataPasienKosong
