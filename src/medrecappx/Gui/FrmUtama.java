@@ -16,8 +16,10 @@ import medrecappx.Gui.Internal.FrmIntJaminan;
 import medrecappx.Gui.Internal.FrmIntListPasien;
 import medrecappx.Gui.Internal.FrmIntObat;
 import medrecappx.Gui.Internal.FrmIntPasienBaru;
+import medrecappx.Gui.Internal.FrmIntPerawat;
 import medrecappx.Gui.Internal.FrmIntSpesialis;
 import medrecappx.Gui.Internal.FrmIntStaf;
+import medrecappx.Gui.Internal.FrmIntTindakan;
 
 /**
  *
@@ -332,6 +334,15 @@ public class FrmUtama extends javax.swing.JFrame {
 
     private void menuPerawatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuPerawatActionPerformed
         // TODO add your handling code here:
+        jDesktopPane1.removeAll();
+        jDesktopPane1.repaint();
+        FrmIntPerawat fis = new FrmIntPerawat();
+        Dimension parentSize = jDesktopPane1.getSize();
+        Dimension childSize = fis.getSize();
+        fis.setLocation((parentSize.width - childSize.width) / 2, (parentSize.height - childSize.height) / 2);
+        jDesktopPane1.add(fis);
+        fis.show();
+        fis.toFront();
     }//GEN-LAST:event_menuPerawatActionPerformed
 
     private void menuStafActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuStafActionPerformed
@@ -349,10 +360,30 @@ public class FrmUtama extends javax.swing.JFrame {
 
     private void menuDataTindakanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuDataTindakanActionPerformed
         // TODO add your handling code here:
+        jDesktopPane1.removeAll();
+        jDesktopPane1.repaint();
+        FrmIntTindakan fit = new FrmIntTindakan();
+        Dimension parentSize = jDesktopPane1.getSize();
+        Dimension childSize = fit.getSize();
+        fit.setLocation((parentSize.width - childSize.width) / 2, (parentSize.height - childSize.height) / 2);
+        jDesktopPane1.add(fit);
+        fit.show();
+        fit.toFront();
+
     }//GEN-LAST:event_menuDataTindakanActionPerformed
 
     private void menuRekmedPasienActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuRekmedPasienActionPerformed
         // TODO add your handling code here:
+        jDesktopPane1.removeAll();
+        jDesktopPane1.repaint();
+        FrmIntListPasien fip = new FrmIntListPasien();
+        fip.setSize(jDesktopPane1.getSize());        /**************** MAXIMIZE Internal Frame *****************/
+        Dimension parentSize = jDesktopPane1.getSize();
+        Dimension childSize = fip.getSize();
+        fip.setLocation((parentSize.width - childSize.width)/2, (parentSize.height - childSize.height)/2);
+        jDesktopPane1.add(fip);
+        fip.show();
+        fip.toFront();
     }//GEN-LAST:event_menuRekmedPasienActionPerformed
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JDesktopPane jDesktopPane1;
