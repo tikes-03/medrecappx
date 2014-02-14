@@ -13,6 +13,7 @@ package medrecappx.Gui;
 import java.awt.Dimension;
 import medrecappx.Gui.Internal.FrmIntDokter;
 import medrecappx.Gui.Internal.FrmIntJaminan;
+import medrecappx.Gui.Internal.FrmIntListPasien;
 import medrecappx.Gui.Internal.FrmIntObat;
 import medrecappx.Gui.Internal.FrmIntPasienBaru;
 import medrecappx.Gui.Internal.FrmIntSpesialis;
