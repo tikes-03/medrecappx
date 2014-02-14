@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<<<<<<< HEAD
 <testsuite errors="0" failures="0" hostname="asus-PC" name="medrecappx.Service.H_ObatGuiServiceTest" skipped="0" tests="5" time="14.823" timestamp="2014-02-14T18:59:10">
+=======
+<<<<<<< HEAD
+<testsuite errors="0" failures="0" hostname="Samsung" name="medrecappx.Service.H_ObatGuiServiceTest" skipped="0" tests="5" time="16.232" timestamp="2014-02-15T07:37:30">
+=======
+<testsuite errors="0" failures="0" hostname="asus-PC" name="medrecappx.Service.H_ObatGuiServiceTest" skipped="0" tests="5" time="17.675" timestamp="2014-02-14T03:41:35">
+>>>>>>> 1c993c5ba63909cb58a60c4c49d2c75eccb76a9d
+>>>>>>> ef3453967d981001e5f3aecfac70cad58ba71aa5
   <properties>
     <property name="default.javac.source" value="1.7" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -79,8 +87,17 @@
     <property name="ant.project.default-target" value="default" />
     <property name="libs.hibernate-persistence.javadoc" value="" />
     <property name="libs.ejb3-persistence.classpath" value="C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\ejb3-persistence.jar" />
+<<<<<<< HEAD
     <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.H_ObatGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\test\results\TEST-medrecappx.Service.H_ObatGuiServiceTest.xml crashfile=C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\junitvmwatcher4174550329367157742.properties propsfile=C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\junit7765541843245236247.properties" />
+=======
+<<<<<<< HEAD
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.H_ObatGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\TA\ci\git\medrecappx\build\test\results\TEST-medrecappx.Service.H_ObatGuiServiceTest.xml crashfile=F:\TA\ci\git\medrecappx\build\junitvmwatcher680226632813493348.properties propsfile=F:\TA\ci\git\medrecappx\build\junit5759221655993580965.properties" />
+    <property name="built-jar.properties" value="F:\TA\ci\git\medrecappx\build\built-jar.properties" />
+=======
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.H_ObatGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\test\results\TEST-medrecappx.Service.H_ObatGuiServiceTest.xml crashfile=C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\junitvmwatcher8664314478851810002.properties propsfile=C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\junit5444907133562457287.properties" />
+>>>>>>> ef3453967d981001e5f3aecfac70cad58ba71aa5
     <property name="built-jar.properties" value="C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\built-jar.properties" />
+>>>>>>> 1c993c5ba63909cb58a60c4c49d2c75eccb76a9d
     <property name="libs.junit.src" value="" />
     <property name="ant.file" value="C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build.xml" />
     <property name="file.reference.fest-assert-1.2.jar" value="lib\fest-swing-1.2\fest-assert-1.2.jar" />
@@ -273,11 +290,27 @@
     <property name="sun.arch.data.model" value="64" />
     <property name="" value="======" />
   </properties>
+<<<<<<< HEAD
   <testcase classname="medrecappx.Service.H_ObatGuiServiceTest" name="a_insertDataObatKosong" time="2.597" />
   <testcase classname="medrecappx.Service.H_ObatGuiServiceTest" name="b_insertDataObat" time="2.726" />
   <testcase classname="medrecappx.Service.H_ObatGuiServiceTest" name="c_updateDataObatKosong" time="1.706" />
   <testcase classname="medrecappx.Service.H_ObatGuiServiceTest" name="d_updateDataObat" time="3.998" />
   <testcase classname="medrecappx.Service.H_ObatGuiServiceTest" name="e_deleteDataObat" time="1.372" />
+=======
+<<<<<<< HEAD
+  <testcase classname="medrecappx.Service.H_ObatGuiServiceTest" name="a_insertDataObatKosong" time="2.946" />
+  <testcase classname="medrecappx.Service.H_ObatGuiServiceTest" name="b_insertDataObat" time="2.731" />
+  <testcase classname="medrecappx.Service.H_ObatGuiServiceTest" name="c_updateDataObatKosong" time="1.509" />
+  <testcase classname="medrecappx.Service.H_ObatGuiServiceTest" name="d_updateDataObat" time="4.005" />
+  <testcase classname="medrecappx.Service.H_ObatGuiServiceTest" name="e_deleteDataObat" time="1.257" />
+=======
+  <testcase classname="medrecappx.Service.H_ObatGuiServiceTest" name="a_insertDataObatKosong" time="3.229" />
+  <testcase classname="medrecappx.Service.H_ObatGuiServiceTest" name="b_insertDataObat" time="2.948" />
+  <testcase classname="medrecappx.Service.H_ObatGuiServiceTest" name="c_updateDataObatKosong" time="1.763" />
+  <testcase classname="medrecappx.Service.H_ObatGuiServiceTest" name="d_updateDataObat" time="4.243" />
+  <testcase classname="medrecappx.Service.H_ObatGuiServiceTest" name="e_deleteDataObat" time="1.342" />
+>>>>>>> 1c993c5ba63909cb58a60c4c49d2c75eccb76a9d
+>>>>>>> ef3453967d981001e5f3aecfac70cad58ba71aa5
   <system-out><![CDATA[1. InsertDataObatKosong
 2. InsertDataObat
 3. UpdateDataObatKosong
