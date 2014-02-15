@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Samsung" name="medrecappx.Service.B_SpesialisGuiServiceTest" skipped="0" tests="5" time="46.804" timestamp="2014-02-14T06:56:41">
+<testsuite errors="0" failures="0" hostname="Samsung" name="medrecappx.Service.B_SpesialisGuiServiceTest" skipped="0" tests="5" time="45.384" timestamp="2014-02-15T07:35:20">
   <properties>
     <property name="default.javac.source" value="1.7" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -75,7 +75,7 @@
     <property name="ant.project.default-target" value="default" />
     <property name="libs.hibernate-persistence.javadoc" value="" />
     <property name="libs.ejb3-persistence.classpath" value="C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\ejb3-persistence.jar" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.B_SpesialisGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\TA\ci\git\medrecappx\build\test\results\TEST-medrecappx.Service.B_SpesialisGuiServiceTest.xml crashfile=F:\TA\ci\git\medrecappx\build\junitvmwatcher6938596481551105919.properties propsfile=F:\TA\ci\git\medrecappx\build\junit2642836287828221018.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.B_SpesialisGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\TA\ci\git\medrecappx\build\test\results\TEST-medrecappx.Service.B_SpesialisGuiServiceTest.xml crashfile=F:\TA\ci\git\medrecappx\build\junitvmwatcher2046028059517951046.properties propsfile=F:\TA\ci\git\medrecappx\build\junit10557218795380414.properties" />
     <property name="built-jar.properties" value="F:\TA\ci\git\medrecappx\build\built-jar.properties" />
     <property name="libs.junit.src" value="" />
     <property name="ant.file" value="F:\TA\ci\git\medrecappx\build.xml" />
@@ -258,11 +258,11 @@
     <property name="sun.arch.data.model" value="32" />
     <property name="" value="======" />
   </properties>
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="a_insertDataSpesialisKosong" time="6.047" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="b_insertDataSpesialis" time="16.926" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="c_updateDataSpesialisKosong" time="8.079" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="d_updateDataSpesialis" time="6.192" />
-  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="e_deleteDataSpesialis" time="5.621" />
+  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="a_insertDataSpesialisKosong" time="5.855" />
+  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="b_insertDataSpesialis" time="16.583" />
+  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="c_updateDataSpesialisKosong" time="7.888" />
+  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="d_updateDataSpesialis" time="5.866" />
+  <testcase classname="medrecappx.Service.B_SpesialisGuiServiceTest" name="e_deleteDataSpesialis" time="5.185" />
   <system-out><![CDATA[1. InsertDataSpesialisKosong
 2. InsertDataSpesialis
 3. UpdateDataSpesialisKosong
