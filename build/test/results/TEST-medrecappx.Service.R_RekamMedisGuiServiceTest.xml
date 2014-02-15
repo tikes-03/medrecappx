@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="asus-PC" name="medrecappx.Service.E_StafServiceTest" skipped="0" tests="4" time="0.302" timestamp="2014-02-14T19:46:47">
+<testsuite errors="0" failures="0" hostname="asus-PC" name="medrecappx.Service.R_RekamMedisGuiServiceTest" skipped="0" tests="13" time="79.853" timestamp="2014-02-14T19:50:37">
   <properties>
     <property name="default.javac.source" value="1.4" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -54,7 +54,7 @@
     <property name="file.encoding" value="Cp1252" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
     <property name="ant.project.default-target" value="default" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.E_StafServiceTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\test\results\TEST-medrecappx.Service.E_StafServiceTest.xml crashfile=C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\junitvmwatcher6524055558053124550.properties propsfile=C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\junit8244791351952224670.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappx.Service.R_RekamMedisGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\test\results\TEST-medrecappx.Service.R_RekamMedisGuiServiceTest.xml crashfile=C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\junitvmwatcher7743221526801810210.properties propsfile=C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\junit7618452305752164026.properties" />
     <property name="built-jar.properties" value="C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build\built-jar.properties" />
     <property name="ant.file" value="C:\Users\asus\Documents\NetBeansProjects\MedRecAppX\build.xml" />
     <property name="file.reference.fest-assert-1.2.jar" value="lib\fest-swing-1.2\fest-assert-1.2.jar" />
@@ -188,14 +188,32 @@
     <property name="sun.arch.data.model" value="64" />
     <property name="" value="======" />
   </properties>
-  <testcase classname="medrecappx.Service.E_StafServiceTest" name="a_insertStaf" time="0.222" />
-  <testcase classname="medrecappx.Service.E_StafServiceTest" name="b_updateStaf" time="0.003" />
-  <testcase classname="medrecappx.Service.E_StafServiceTest" name="c_deleteStaf" time="0.002" />
-  <testcase classname="medrecappx.Service.E_StafServiceTest" name="d_getAllStaf" time="0.0" />
-  <system-out><![CDATA[1. serviceInsertStaf
-2. serviceUpdateStaf
-3. serviceDeleteStaf
-4. serviceGetAllStaf
+  <testcase classname="medrecappx.Service.R_RekamMedisGuiServiceTest" name="a_insertDataSpesialis" time="8.576" />
+  <testcase classname="medrecappx.Service.R_RekamMedisGuiServiceTest" name="b_insertDataJaminan" time="8.981" />
+  <testcase classname="medrecappx.Service.R_RekamMedisGuiServiceTest" name="c_insertDataStaf" time="6.658" />
+  <testcase classname="medrecappx.Service.R_RekamMedisGuiServiceTest" name="d_insertDataDokter" time="7.046" />
+  <testcase classname="medrecappx.Service.R_RekamMedisGuiServiceTest" name="e_insertDataPerawat" time="6.527" />
+  <testcase classname="medrecappx.Service.R_RekamMedisGuiServiceTest" name="f_insertRegistrasiKosongKePoli" time="15.856" />
+  <testcase classname="medrecappx.Service.R_RekamMedisGuiServiceTest" name="g_insertRegistrasiKePoli" time="1.06" />
+  <testcase classname="medrecappx.Service.R_RekamMedisGuiServiceTest" name="h_updateRekmedMasukPoli" time="1.943" />
+  <testcase classname="medrecappx.Service.R_RekamMedisGuiServiceTest" name="i_updateRekmedPeriksaAwalKosong" time="9.249" />
+  <testcase classname="medrecappx.Service.R_RekamMedisGuiServiceTest" name="j_updateRekmedPeriksaAwal" time="0.933" />
+  <testcase classname="medrecappx.Service.R_RekamMedisGuiServiceTest" name="k_updateRekmedPeriksaLanjutanKosong" time="5.844" />
+  <testcase classname="medrecappx.Service.R_RekamMedisGuiServiceTest" name="l_updateRekmedPeriksaLanjutan" time="2.827" />
+  <testcase classname="medrecappx.Service.R_RekamMedisGuiServiceTest" name="m_lihatDataRekamMedis" time="3.197" />
+  <system-out><![CDATA[1. insertDataSpesialis
+2. insertDataJaminan
+3. insertDataStaf
+4. insertDataDokter
+5. insertDataPerawat
+6. insertRegistrasiKosongKePoli
+7. insertRegistrasiKePoli
+8. updateRekmedMasukPoli
+9. updateRekmedPeriksaAwalKosong
+10. updateRekmedPeriksaAwal
+11. updateRekmedPeriksaLanjutanKosong
+12. updateRekmedPeriksaLanjutan
+12. lihatDataRekamMedis
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
