@@ -5,10 +5,8 @@
 
 package medrecappx.Service;
 
-import medrecappx.Gui.FrmTestUtama;
 import medrecappx.Services.PasienService;
 import javax.swing.JFrame;
-import medrecappx.Gui.FrmTestUtama;
 import java.util.logging.Logger;
 import java.util.logging.Level;
 import javax.swing.UnsupportedLookAndFeelException;
@@ -43,7 +41,7 @@ public class J_PasienGuiServiceTest {
         try {
             UIManager.setLookAndFeel(new NimbusLookAndFeel());
         } catch (UnsupportedLookAndFeelException ex) {
-            Logger.getLogger(FrmTestUtama.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(J_PasienGuiServiceTest.class.getName()).log(Level.SEVERE, null, ex);
         }
 
         fu = new FrmUtama();
