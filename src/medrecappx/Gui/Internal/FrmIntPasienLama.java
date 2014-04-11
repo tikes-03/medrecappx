@@ -179,9 +179,9 @@ public class FrmIntPasienLama extends javax.swing.JInternalFrame {
         jLabel5 = new javax.swing.JLabel();
         pilihJaminan = new javax.swing.JComboBox();
         jLabel10 = new javax.swing.JLabel();
-        tglPendaftaran = new com.toedter.calendar.JDateChooser();
         pilihStaf = new javax.swing.JComboBox();
         jLabel11 = new javax.swing.JLabel();
+        tglPendaftaran = new com.toedter.calendar.JDateChooser();
         btnDaftarkan = new javax.swing.JButton();
 
         setClosable(true);
@@ -298,8 +298,6 @@ public class FrmIntPasienLama extends javax.swing.JInternalFrame {
 
         jLabel10.setText("Tanggal Pendaftaran");
 
-        tglPendaftaran.setDateFormatString("yyyy-MM-dd");
-
         pilihStaf.setName("pilihStaf"); // NOI18N
 
         jLabel11.setText("Staf");
@@ -328,8 +326,8 @@ public class FrmIntPasienLama extends javax.swing.JInternalFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel10)
-                            .addComponent(tglPendaftaran, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
+                            .addComponent(tglPendaftaran, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(51, 51, 51)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel2)
                             .addComponent(pilihPoliTujuan, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE))))
@@ -344,9 +342,9 @@ public class FrmIntPasienLama extends javax.swing.JInternalFrame {
                     .addComponent(jLabel2))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(tglPendaftaran, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pilihPoliTujuan, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addComponent(pilihPoliTujuan, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(tglPendaftaran, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(jLabel4)
@@ -391,7 +389,7 @@ public class FrmIntPasienLama extends javax.swing.JInternalFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnDaftarkan, javax.swing.GroupLayout.DEFAULT_SIZE, 66, Short.MAX_VALUE)
+                .addComponent(btnDaftarkan, javax.swing.GroupLayout.DEFAULT_SIZE, 74, Short.MAX_VALUE)
                 .addGap(23, 23, 23))
         );
 
@@ -486,6 +484,7 @@ public class FrmIntPasienLama extends javax.swing.JInternalFrame {
             }
         }
     }//GEN-LAST:event_txtNoRmKeyReleased
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnDaftarkan;
     private javax.swing.JLabel jLabel1;

@@ -8,6 +8,9 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="File"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuFileActionPerformed"/>
+          </Events>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="menuExit">
               <Properties>
@@ -61,24 +64,36 @@
             <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator2">
             </MenuItem>
             <Menu class="javax.swing.JMenu" name="jMenu1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Data SDM"/>
+                <Property name="name" type="java.lang.String" value="menuDataSDM" noResource="true"/>
+              </Properties>
               <SubComponents>
-                <MenuItem class="javax.swing.JMenuItem" name="menuStaf">
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Data Staf"/>
                     <Property name="name" type="java.lang.String" value="menuDataStaf" noResource="true"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuStafActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1ActionPerformed"/>
                   </Events>
                 </MenuItem>
                 <MenuItem class="javax.swing.JMenuItem" name="menuDokter">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Data Dokter"/>
+                    <Property name="name" type="java.lang.String" value="menuDataDokter" noResource="true"/>
+                  </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuDokterActionPerformed"/>
                   </Events>
                 </MenuItem>
-                <MenuItem class="javax.swing.JMenuItem" name="menuPerawat">
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Data Perawat"/>
+                    <Property name="name" type="java.lang.String" value="menuDataPerawat" noResource="true"/>
+                  </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuPerawatActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem2ActionPerformed"/>
                   </Events>
                 </MenuItem>
               </SubComponents>
@@ -91,8 +106,15 @@
           </Properties>
           <SubComponents>
             <Menu class="javax.swing.JMenu" name="jMenu3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Pendaftaran"/>
+              </Properties>
               <SubComponents>
                 <MenuItem class="javax.swing.JMenuItem" name="menuPendaftaranPasBaru">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Pasien Baru"/>
+                    <Property name="name" type="java.lang.String" value="menuDataPasienBaru" noResource="true"/>
+                  </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuPendaftaranPasBaruActionPerformed"/>
                   </Events>
@@ -115,6 +137,10 @@
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="menuPoliDalam">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Poliklinik Penyakit Dalam"/>
+                <Property name="name" type="java.lang.String" value="menuPoliPenyakitDalam" noResource="true"/>
+              </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuPoliDalamActionPerformed"/>
               </Events>
@@ -149,10 +175,17 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Rekam Medis"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenu5ActionPerformed"/>
+          </Events>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="menuRekmedPasien">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Rekam Medis Pasien"/>
+                <Property name="name" type="java.lang.String" value="menuRekamMedisPasien" noResource="true"/>
+              </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuRekmedPasienActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem3ActionPerformed"/>
               </Events>
             </MenuItem>
           </SubComponents>
@@ -187,7 +220,7 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jDesktopPane1" alignment="1" pref="366" max="32767" attributes="0"/>
+          <Component id="jDesktopPane1" alignment="1" pref="368" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>

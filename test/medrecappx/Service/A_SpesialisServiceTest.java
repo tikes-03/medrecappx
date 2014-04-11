@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import medrecappx.TabelModel.TabelModelSpesialis;
 import com.mysql.jdbc.Connection;
 import java.util.List;
+import medrecappx.Dao.SpesialisDao;
 import medrecappx.Entity.Spesialis;
 import org.junit.After;
 import org.junit.AfterClass;
@@ -82,6 +83,7 @@ public class A_SpesialisServiceTest {
         assertEquals(ExpIdSpesialis, tabelModelSpesialis.getValueAt(0, 0));
         assertEquals(ExpNmSpesialis, tabelModelSpesialis.getValueAt(0, 1));
         assertEquals(ExpTarifKonsul, tabelModelSpesialis.getValueAt(0, 2));
+       // assertNotEquals("ok", SpesialisDao.hasilInsert);
     }
 
     /**

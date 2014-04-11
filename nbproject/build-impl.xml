@@ -27,7 +27,8 @@ is divided into following sections:
         </condition>
     </fail>
     <!--<target depends="test,jar,javadoc" description="Build and test whole project." name="default"/> -->
-    <target depends="test,jar" description="Build and test whole project." name="default"/>
+  <!-- <target depends="test,jar" description="Build and test whole project." name="default"/> -->
+	<target depends="jar" description="Build and test whole project." name="default"/>
 
     <!-- 
                 ========================
@@ -381,7 +382,7 @@ is divided into following sections:
             <attribute default="**" name="testincludes"/>
             <sequential>
             	<!-- printsummary="yes" haltonfailure="yes" -->
-                <junit dir="${work.dir}" printsummary="yes" haltonfailure="no" errorproperty="tests.failed" failureproperty="tests.failed" fork="true" showoutput="true" tempdir="${build.dir}">
+                <junit dir="${work.dir}" printsummary="yes" haltonfailure="yes" errorproperty="tests.failed" failureproperty="tests.failed" fork="true" showoutput="true" tempdir="${build.dir}">
                     <batchtest todir="${build.test.results.dir}">
                         <fileset dir="${test.src.dir}" excludes="@{excludes},${excludes}" includes="@{includes}">
                             <filename name="@{testincludes}"/>
@@ -616,7 +617,8 @@ is divided into following sections:
         <!-- Empty placeholder for easier customization. -->
         <!-- You can override this target in the ../build.xml file. -->
     </target>
-    <target depends="init,deps-jar,-verify-automatic-build,-pre-pre-compile,-pre-compile,-do-compile,-post-compile" description="Compile project." name="compile"/>
+   <!-- <target depends="init,deps-jar,-verify-automatic-build,-pre-pre-compile,-pre-compile,-do-compile,-post-compile" description="Compile project." name="compile"/> -->
+	<target depends="clean,deps-jar,-verify-automatic-build,-pre-pre-compile,-pre-compile,-do-compile,-post-compile" description="Compile project." name="compile"/> 
     
     <target name="-pre-compile-single">
         <!-- Empty placeholder for easier customization. -->
@@ -705,7 +707,8 @@ is divided into following sections:
     <!--
     <target depends="init,compile,-pre-jar,-do-jar-with-manifest,-do-jar-without-manifest,-do-jar-with-mainclass,-do-jar-with-libraries-and-splashscreen,-do-jar-with-libraries,-post-jar" description="Build JAR." name="jar"/>
     -->
-    <target depends="-do-jar-with-libraries" description="Build JAR." name="jar"/>
+  <!--  <target depends="-do-jar-with-libraries" description="Build JAR." name="jar"/> -->
+	<target depends="test,-do-jar-with-libraries" description="Build JAR." name="jar"/>
 
 
 
@@ -877,7 +880,8 @@ is divided into following sections:
     <!--
     <target depends="init,compile-test,-pre-test-run,-do-test-run,test-report,-post-test-run,-test-browse" description="Run unit tests." name="test"/>
     -->
-    <target depends="-do-test-run,drop-db" description="Run unit tests." name="test"/>
+    <!-- <target depends="-do-test-run,drop-db" description="Run unit tests." name="test"/> -->
+	<target depends="-do-test-run,drop-db" description="Run unit tests." name="test"/>
 
 
 

@@ -43,7 +43,7 @@
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="btnDaftarkan" pref="70" max="32767" attributes="1"/>
+              <Component id="btnDaftarkan" pref="74" max="32767" attributes="1"/>
               <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -245,10 +245,10 @@
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                              <Component id="tglPendaftaran" min="-2" pref="134" max="-2" attributes="0"/>
+                              <Component id="jLabel10" min="-2" max="-2" attributes="1"/>
+                              <Component id="tglPendaftaran" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                               <Component id="pilihPoliTujuan" min="-2" pref="324" max="-2" attributes="0"/>
@@ -269,10 +269,10 @@
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="tglPendaftaran" min="-2" max="-2" attributes="0"/>
                       <Component id="pilihPoliTujuan" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglPendaftaran" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
                       <Group type="102" attributes="0">
                           <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
@@ -341,11 +341,6 @@
             <Property name="text" type="java.lang.String" value="Tanggal Pendaftaran"/>
           </Properties>
         </Component>
-        <Component class="com.toedter.calendar.JDateChooser" name="tglPendaftaran">
-          <Properties>
-            <Property name="dateFormatString" type="java.lang.String" value="yyyy-MM-dd"/>
-          </Properties>
-        </Component>
         <Component class="javax.swing.JComboBox" name="pilihStaf">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
@@ -358,6 +353,8 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Staf"/>
           </Properties>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="tglPendaftaran">
         </Component>
       </SubComponents>
     </Container>

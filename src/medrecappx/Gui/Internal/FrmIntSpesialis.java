@@ -25,7 +25,7 @@ import medrecappx.TabelModel.TabelModelSpesialis;
 
 /**
  *
- * @author Fachrul Pralienka BM
+ * @author Hernawati Susanti S
  */
 public class FrmIntSpesialis extends javax.swing.JInternalFrame {
 
